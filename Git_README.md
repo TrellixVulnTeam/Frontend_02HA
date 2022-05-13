@@ -26,6 +26,7 @@ Informacao de alteracao
  - git commit -m "mensagem"
  - git pull "puxa" alteracoes do Git
  - git push "manda" alteracoes ao Git
+ - so se faz alteracao se o codigo estiver atualizado, primeir "pull" depois "push"
 
 ## Git Flow
 
