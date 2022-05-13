@@ -20,10 +20,10 @@ Arquivo B | Ver. 1 | Ver. 2
 ## Clonar projeto
 
 ## Commits
-
 Informacao de alteracao 
-
  - apos testado todo codigo
+ - git add *
+ - git commit -m "mensagem"
 
 ## Git Flow
 
