@@ -24,6 +24,8 @@ Informacao de alteracao
  - apos testado todo codigo
  - git add *
  - git commit -m "mensagem"
+ - git pull "puxa" alteracoes do Git
+ - git push "manda" alteracoes ao Git
 
 ## Git Flow
 
