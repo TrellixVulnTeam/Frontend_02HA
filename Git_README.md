@@ -10,8 +10,8 @@
  - Todos arquivos
  - Evolucao continua
 
-Arquivo A | Ver. 1 | Ver. 2
-Arquivo B | Ver. 1 | Ver. 2
+ - Arquivo A | Ver. 1 | Ver. 2
+ - Arquivo B | Ver. 1 | Ver. 2
 
 ## Instalacao Git
 
