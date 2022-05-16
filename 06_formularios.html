@@ -4,23 +4,18 @@
 		<title>HTML - Formulário</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<!-- RESET -->
 		<link rel="stylesheet" type="text/css" href="./css/reset.css">
-		
 		<!-- Estilos Personalizados -->
 		<link rel="stylesheet" type="text/css" href="./CSS/CSS_blackwhite.css">
 	</head>
 	<body>
-
 		<header>
 			<h1>
 				Curso Frontend HTML - Formulários
 			</h1>
 		</header>
-
 		<section>
-
 			<nav>
 				<div class="navbar">
 					<h3>Menu de Aulas</h3>
@@ -34,15 +29,10 @@
 				<a href="10_colunas.html">Colunas E divisórias</a> 
 				</div> 
 			</nav>
-
 			<article class="formulario">
-
 				<h2>Contato</h2>
 				<p1>Favor preencher os campos abaixo.</p1>
-
-							 			<!-- esse é o metodo get-->
-				<form method="post"> 	<!-- a tag post muda pro metodo post-->
-
+				<form method="post"> 	<!-- a tag post muda do metodo get pro metodo post-->
 					<div>
 						<label for="nome">Nome</label><br>
 						<input class="not_option" type="text" name="nome" id="nome" placeholder="Seu nome aqui">
@@ -56,7 +46,6 @@
 						<label for="mensagem">Deixe aqui uma breve mensagem</label><br>				
 						<textarea name="mensagem" id="mensagem" rows="5" ></textarea>
 					</div>
-
 					<div class="options">
 						<p>			<!-- em type="radio" só da pra escolher um-->
 							<label>Qual linguagen voce prefere?</label> 
@@ -66,7 +55,6 @@
 							<input type="radio" name="linguagens"> JS	
 						</p>
 					</div>
-
 					<div class="options">
 						<p>			<!--type"checkbox" permite multiplas escolhas-->			
 							<label>Quais linguagens voce sabe?</label><br>
@@ -75,12 +63,10 @@
 							<input type="checkbox" name="linguagens" value="javascript"> JS	
 						</p>
 					</div>
-
 					<div>
 						<label for="mensagem">Voce conheçe alguma outra linguagem? Caso sim, indique quais, caso não indique com "Não conheço".</label><br>				
 						<textarea name="mensagem" rows="4" ></textarea>
 					</div>
-
 					<div class="options">						
 						<label>Qual sua cor favorita?</label>
 						<br>
@@ -91,20 +77,14 @@
 							<option value="Amarelo">Que?</option>
 						</select>
 					</div>
-
 					<div>
 						<input class="not_option" type="submit" >				
 					</div>
-
 				</form>
-
 			</article>
-
 		</section>
-
 		<footer>
 			<p>Desenvolvido por João</p>
-		</footer>
-		
+		</footer>	
 	</body>
 </html>

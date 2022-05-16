@@ -35,6 +35,20 @@ Informacao de alteracao
  - versionamento 0.1.2: o primeiro digito é pra "versão principal", o segundo indica mais alterações, o terceiro serve pra correção de bug e coisas mais corriqueiras, quando o ocorrem mais mudanças altera-se o segundo digito, e quando esta pronto, altera-se o primeiro
  - DOD = Definition Of Done, ou seja, critérios de aceite
  - NÃO COMITAR CODIGO SE TA QUEBRANDO A PAGINA (pode atrapalhar outros devs)
+ - git checkout -b "nome" (pra criar uma branch)
+ - git checkout (pra mudar de branch)
 
  ### Merge 
- - Mescla as Branchs
+ - Mescla as Branchs (quando mesclar diretamente voce assume toda responsabilidade de qualquer erro que acontecer)
+ - Pode precisar resolver conflitos manualmente 
+ - git merge main (mescla as branches)
+
+### Pull request
+ - Mescla de branch no repositório
+ - Permite code review (enviar para outros verem)
+ - Repositorio resolve conflitos automaticamente
+
+ ### Configurara Git flow
+ - git flow init
+ - git flow feature start "nome_da_feature" 
+ - 
