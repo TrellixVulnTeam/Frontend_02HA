@@ -29,5 +29,9 @@ Informacao de alteracao
  - so se faz alteracao se o codigo estiver atualizado, primeir "pull" depois "push"
 
 ## Git Flow
-
  - Fluxo do Git
+### Branchs
+ - são ramificações / versões que podem correr de modo paralelo, usadas pra "teste" caso necessário
+ - versionamento 0.1.2: o primeiro digito é pra "versão principal", o segundo indica mais alterações, o terceiro serve pra correção de bug e coisas mais corriqueiras, quando o ocorrem mais mudanças altera-se o segundo digito, e quando esta pronto, altera-se o primeiro
+ - DOD = Definition Of Done, ou seja, critérios de aceite
+ - NÃO COMITAR CODIGO SE TA QUEBRANDO A PAGINA (pode atrapalhar outros devs)
