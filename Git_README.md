@@ -47,4 +47,8 @@ Informacao de alteracao
  - Mescla de branch no repositório
  - Permite code review (enviar para outros verem)
  - Repositorio resolve conflitos automaticamente
- 
+
+ ### Configurara Git flow
+ - git flow init
+ - git flow feature start "nome_da_feature" 
+ - 
