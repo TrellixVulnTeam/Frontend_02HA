@@ -22,14 +22,15 @@
     \\\\    Atenção    ////
       \\\  Interesse  ///
         \\  Desejo   //
-          \  Ação   /       *call to action*
+          \  Ação   /    <----- *call to action*
         
         LEAD (Email)
 
  ## Briefing
   - Criar campanha para divulgar seus serviços de criação de site, landing page e e-mail marketing.
   - Gerar leads qualificados com *real interesse* nos serviços oferecidos (NECESSÁRIO TRAZER MUITA CONFIANÇA PRO USUÁRIO)
-  - Criar conteudo pra post, email marketing, landing page
+  - Criar conteudo pra post (blog), email marketing, landing page
   - Criar formulario pra captação de email
-  - Post em rede social 
+  - Post em rede social: url curta + texto + foto (de facil compartilhamento)
   - Incluir hospedagen
+  - GIT - Histórico de evolução com comits detalhados
