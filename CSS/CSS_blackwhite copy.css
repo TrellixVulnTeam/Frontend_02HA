@@ -43,6 +43,9 @@ h2, h3 {
     color: white;
     text-decoration: underline;
 }
+nav {
+    text-align: center;
+}
 
  .navbar a {
     margin: .4%; 
