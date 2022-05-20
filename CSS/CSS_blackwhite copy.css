@@ -93,7 +93,7 @@ img {
     margin: auto;
     padding: auto;
     border-radius: .9%;
-    border: rgb(255, 255, 255) solid;
+    border: rgb(212, 212, 212) solid;
 }
 .logo01 {
     background-color: #ffffff00;
@@ -115,28 +115,35 @@ h4 {
 	border: solid rgba(0, 0, 0, 90%);
 }
 table { 
+    font-size: 1.1rem;
 	margin: 0%; /*top-right-bottom-left*/
 	padding: 1%;
 	border: .3em solid;	
 	background: rgb(187, 187, 187);	
 	width: 100%; 
 	border-collapse: collapse;
-    font-family: Arial;
-}
-td:hover  {
-    background-color: rgb(0, 0, 0);
-    filter: invert(100%);
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 p{
     color: white;
-    
     font-size: 1.1em;
+}
+
+.p1 {
+    font-size: .9em;
+}
+
+.img_td1 {
+    background-color: #88888891;
+    border: 1px solid #ffffff88;
+    border-radius: 1%;
 }
 
 table th, table td {
 	padding: 1rem;
-	font-size: 1.6rem;
+	font-size: 1.1em;
 	text-align: left;
 	vertical-align: top;
 	border: 1px solid;
