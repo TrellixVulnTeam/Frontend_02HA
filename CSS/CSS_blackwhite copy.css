@@ -10,7 +10,7 @@ html {
 }
 body {
     background: url(../Estilos/pattern.png) ;
-    background-color: #d6d6d6;
+    background-color: #dbdbdb;
 }
 header {
 
@@ -94,6 +94,11 @@ img {
     padding: auto;
     border-radius: .9%;
     border: rgb(255, 255, 255) solid;
+}
+.logo01 {
+    background-color: #ffffff00;
+    border: none;
+  
 }
 .confia {
     border-radius: 50%;
