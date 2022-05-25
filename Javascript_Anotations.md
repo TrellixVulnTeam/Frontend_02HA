@@ -33,5 +33,3 @@
   - Metodo progressivo & integrado, vai aprender javascript e integrar com HTML e CSS, com outros frameworks que tambem envolvem javascript   
 
   - Começa mais facil e aumenta a complexidade   
-
-  - 
