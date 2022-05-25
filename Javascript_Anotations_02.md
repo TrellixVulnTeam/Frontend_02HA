@@ -20,4 +20,20 @@
  ### Lógica de Programação  
 
  - É a técnica de sequenciar pensamento, passos e f luxo de dado para atingir o objetivo de gerar informação
-   - E a sequencia dos passos/instruções que o computador precisa seguir é conhecida como **algoritmo**
+   - E a sequencia dos passos/instruções que o computador precisa seguir é conhecida como **algoritmo**   
+
+### Algoritmo   
+
+- Sequencia lógica e finita de instrução de resolução de problema
+- *Nem todo algoritmo é programa de computador, mas todo programa de computador é um algoritmo*
+- A linguagen de programação é a ferramente que viabiliza o funcionamento dos algoritmos   
+
+#### Algoritmos para calcular a média de 3 números:   
+
+1. Inicio:
+2. Receber o primeiro numero: entrada1;
+3. Receber o segundo numero: entrada2;
+4. Receber o terceiro numero: entrada3;
+5. Somar os numeros e dividir por 3: (entrada1 + entrada2 + entrada3) /3;
+6. Exibir o resultado: print, echo, console.log ; 
+7. Fim;
