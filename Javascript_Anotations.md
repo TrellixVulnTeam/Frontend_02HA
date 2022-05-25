@@ -20,4 +20,18 @@
 
  - IoT (Internet of Things) **Javascript ta em tudo**  
 
- - ECMAScript; **a convenção que define o padrão das linguagens**
+ - ECMAScript; **a convenção que define o padrão das linguagens**  
+
+ ## Fundamentos do Javascript   
+
+ - Fundamentos são essenciais pra avançar no desenvolvimento de aplicações modernas por ser a base de **MUITO** framework   
+
+ - Nesse curso evolui da base ao topo; *é melhor começar do começo do que começar da frente e ter que voltar pra base*   
+
+ ## Metodologia 
+
+  - Metodo progressivo & integrado, vai aprender javascript e integrar com HTML e CSS, com outros frameworks que tambem envolvem javascript   
+
+  - Começa mais facil e aumenta a complexidade   
+
+  - 
