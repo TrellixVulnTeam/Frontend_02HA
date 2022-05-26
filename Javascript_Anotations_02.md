@@ -36,4 +36,23 @@
 4. Receber o terceiro numero: entrada3;
 5. Somar os numeros e dividir por 3: (entrada1 + entrada2 + entrada3) /3;
 6. Exibir o resultado: print, echo, console.log ; 
-7. Fim;
+7. Fim;   
+
+### Funcionalidades Gerais  
+ - Criar algoritmos e programas para executar no navegador: client side
+ - Manipular o DOM: elementos(qualquer tag html), eventos(ações do usuário), estilos(do css)
+ - Javascript tambem é base de Node.js
+      - Node.js: framework de JS para backend que tambem tem runtime (uma engine que faz JS poder ser executado do lado do servidor e computadores)
+ - Mongo.db/GraphQL: banco de dados JS
+ - React / Vue.js / Angular: Frameworks JS para desenvolvimento web/mobile
+      - React Native: framework especifico para dev. mobile
+ - Receber/manipular dados, tomar decisões baseados em lógica computacional, fazer loop & interações (***precisa de uma condição de saída, do contrario, quebra tudo***)   
+
+ ### Executar JS
+ - Console de browsers
+ - Editores como Sublime e VSC
+ - JS Fiddle https://jsfiddle.net/  
+
+ #### Instalação Node.js
+ - Pra executar scripts JS precisa utilizar o node.js
+ - Instalação https://nodejs.org/pt-br/download/package-manager/
