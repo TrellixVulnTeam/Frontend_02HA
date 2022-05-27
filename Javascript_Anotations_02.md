@@ -71,5 +71,5 @@
  - let (substitui a *var*, mas a *var* ainda é usada)
  - string (**tipo variavel para conjunto de caracteres**, marcada por aspas simples ou dupla [' ou "] por exemplo *'texto qualquer'*)
  - tipagem: numero ou string
- - array 
+ - array (armazenam um conjunto de *coisas/valores*)
 
