@@ -55,4 +55,21 @@
 
  #### Instalação Node.js
  - Pra executar scripts JS precisa utilizar o node.js
- - Instalação https://nodejs.org/pt-br/download/package-manager/
+ - Instalação https://nodejs.org/pt-br/download/package-manager/   
+
+ ##### Windows necessita tambem da instalação do chocolatey
+   - Executar no Powershell como admin   
+
+ ##### Após instalação
+ - Rodar novo terminal: node -v   
+
+ ### Variáveis
+ - Possuem papel importante por permitir que reserve memória no computador/servidor para que se trabalhe no código de modo mais intuitivo, criando algoritmo mais completo.
+ - Primeiro se determina o nome da variavel e o que vai receber, por exemplo "*var a = 10*"
+ - var (variavel/variable) 
+ - const (constant - *essa variavel não muda, o valor é imutável*)
+ - let (substitui a *var*, mas a *var* ainda é usada)
+ - string (**tipo variavel para conjunto de caracteres**, marcada por aspas simples ou dupla [' ou "] por exemplo *'texto qualquer'*)
+ - tipagem: numero ou string
+ - array 
+
