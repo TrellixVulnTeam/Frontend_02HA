@@ -51,7 +51,7 @@
  ### Executar JS
  - Console de browsers
  - Editores como Sublime e VSC
- - JS Fiddle https://jsfiddle.net/  
+ - JS Fiddle https://jsfiddle.net/   
 
  #### Instalação Node.js
  - Pra executar scripts JS precisa utilizar o node.js
@@ -71,5 +71,21 @@
  - let (substitui a *var*, mas a *var* ainda é usada)
  - string (**tipo variavel para conjunto de caracteres**, marcada por aspas simples ou dupla [' ou "] por exemplo *'texto qualquer'*)
  - tipagem: numero ou string
- - array (armazenam um conjunto de *coisas/valores*)
+ - array (armazenam um conjunto de *coisas/valores*)   
 
+ ### Operadores
+ - Soma +
+ - Subtração -
+ - Multiplicar * 
+ - Dividir /
+ - Módulo % (é o resto da divisão dos dois primeiros)
+ - Math: random(gerar numero aleatório), round (arredondar), sqrt(raiz quadrada/*square root*)
+ - ***Operadores de atribuição atribuem valores (=)*** 
+ - O primeiro recebe o valor do segundo: *a = b* no que *a* recebe o valor atribuido a *b*
+ - No que *a += b* o valor de *a* é somado ao valor de *b* e o **resultado** é atribuido à *a* e isto pode ser feito com qualquer operação
+ - *=* significa que **recebe** um valor, *==* significa que é **igual-igual mesmo**
+ - *!=* pergunta se o valor é **diferente** 
+ - utilizar um operador 2 vezes altera o valor; por exemplo *a = 15* ou seja *a++* sera *16* e *a--* sera *14*
+ - Maior que *>* e menor que *<* tambem podem ser usados
+
+ #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
