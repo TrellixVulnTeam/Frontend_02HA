@@ -94,23 +94,23 @@
 
  #### 1.Descrever um algoritmo pra resolver o "*problema da travessia*"
 
- - ***Um homen precisa atravessar um rio com seu lobo, sua cabra e um maço alfafa em seu barco, no barco só cabe ele e mais um de seus pertences; não podendo deixar o lobo sozinho com a cabra nem a cabra sozinha com a alfafa***   
+ - ***Um HOMEN precisa atravessar um rio com seu lobo, sua cabra e um maço alfafa em seu barco, no barco só cabe ele e mais um de seus pertences; não podendo deixar o lobo sozinho com a cabra nem a cabra sozinha com a alfafa***   
 
-     0. |**Homen**|Lobo|Cabra|Alfafa|***RIO***|
+     0. |**HOMEN**|Lobo|Cabra|Alfafa|***RIO***|
 
-     1. |Lobo|Alfafa|***RIO***|**Homen**|Cabra|
+     1. |Lobo|Alfafa|***RIO***|**HOMEN**|Cabra|
 
-     2. |**Homen**|Lobo|Alfafa|***RIO***|Cabra|
+     2. |**HOMEN**|Lobo|Alfafa|***RIO***|Cabra|
 
-     3. |Alfafa|***RIO***|Cabra|**Homen**|Lobo|
+     3. |Alfafa|***RIO***|Cabra|**HOMEN**|Lobo|
 
-     4. |Cabra|**Homen**|Alfafa|***RIO***|Lobo|
+     4. |Cabra|**HOMEN**|Alfafa|***RIO***|Lobo|
 
-     5. |Cabra|***RIO***|Lobo|**Homen**|Alfafa|
+     5. |Cabra|***RIO***|Lobo|**HOMEN**|Alfafa|
 
-     6. |Homen|Cabra|***RIO***|Lobo|Alfafa|
+     6. |HOMEN|Cabra|***RIO***|Lobo|Alfafa|
 
-     7. |***RIO*** |Homen|Cabra|Lobo|Alfafa|
+     7. |***RIO*** |HOMEN|Cabra|Lobo|Alfafa|
 
 
  #### 2.JS:Exibir média de 3 numeros com entradas pelo formulário HTML e enviar link no *git* ou *fiddle*
