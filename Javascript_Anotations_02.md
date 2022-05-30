@@ -90,7 +90,7 @@
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
- ## Exercicio:   
+ # Exercicio:   
 
  #### 1.Descrever um algoritmo pra resolver o "*problema da travessia*"
 
