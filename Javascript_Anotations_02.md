@@ -88,4 +88,29 @@
  - utilizar um operador 2 vezes altera o valor; por exemplo *a = 15* ou seja *a++* sera *16* e *a--* sera *14*
  - Maior que *>* e menor que *<* tambem podem ser usados
 
- #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+ #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
+
+ ## Exercicio:   
+
+ #### 1.Descrever um algoritmo pra resolver o "*problema da travessia*"
+
+ - ***Um homen precisa atravessar um rio com seu lobo, sua cabra e um maço alfafa em seu barco, no barco só cabe ele e mais um de seus pertences; não podendo deixar o lobo sozinho com a cabra nem a cabra sozinha com a alfafa***   
+
+     0. |Homen|Lobo|Cabra|Alfafa|***RIO***|
+
+     1. |Lobo|Alfafa|***RIO***|Homen|Cabra|
+
+     2. |Homen|Lobo|Alfafa|***RIO***|Cabra|
+
+     3. |Alfafa|***RIO***|Cabra|Homen|Lobo|
+
+     4. |Cabra|Homen|Alfafa|***RIO***|Lobo|
+
+     5. |Cabra|***RIO***|Lobo|Homen|Alfafa|
+
+     6. |Homen|Cabra|***RIO***|Lobo|Alfafa|
+
+     7. |***RIO*** |Homen|Cabra|Lobo|Alfafa|
+
+
+ #### 2.JS:Exibir média de 3 numeros com entradas pelo formulário HTML e enviar link no *git* ou *fiddle*
