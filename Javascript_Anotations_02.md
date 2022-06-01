@@ -73,20 +73,71 @@
  - tipagem: numero ou string
  - array (armazenam um conjunto de *coisas/valores*)   
 
- ### Operadores
+ ### Operadores   
+
+ #### Aritmeticos: Retornam o resultado de uma operação  
+
  - Soma +
  - Subtração -
  - Multiplicar * 
  - Dividir /
- - Módulo % (é o resto da divisão dos dois primeiros)
- - Math: random(gerar numero aleatório), round (arredondar), sqrt(raiz quadrada/*square root*)
- - ***Operadores de atribuição atribuem valores (=)*** 
- - O primeiro recebe o valor do segundo: *a = b* no que *a* recebe o valor atribuido a *b*
- - No que *a += b* o valor de *a* é somado ao valor de *b* e o **resultado** é atribuido à *a* e isto pode ser feito com qualquer operação
- - *=* significa que **recebe** um valor, *==* significa que é **igual-igual mesmo**
- - *!=* pergunta se o valor é **diferente** 
- - utilizar um operador 2 vezes altera o valor; por exemplo *a = 15* ou seja *a++* sera *16* e *a--* sera *14*
- - Maior que *>* e menor que *<* tambem podem ser usados
+ - Módulo % (é o resto da divisão dos dois primeiros)  
+
+ #### Comparadores matematicos: teste lógico, retorno booleano (true/false)  
+
+ - < menor que
+ - > maior que
+ - <= menor ou igual
+ - >= maior ou igual  
+
+ #### Comparadores lógicos: teste lógico, retorno booleano (true/false)  
+
+ - == igualdade entre sentenças (só valor)
+ - != diferença entre sentenças (só valor)
+ - === ig. entre sent. (valor & tipo)
+ - !== diff. entre. sent. (valor & tipo)   
+
+ ### = é considerado atribuidor de valor; de modo que se *"a = b"* *a* terá valor de *b*   
+ 
+ #### Comparadores de lógica e junção de lógica  
+
+ - !    not 
+ - &&   and
+ - ||   or  
+
+ #### Condições lógicas são convertidas em números binérios
+ - 1 == true
+ - 0 == false   
+
+ #### Operador lógico de atribuição  
+
+ - Tem capacidade de atribuir valor a variável a partir de condição lógica, economizando *IFs*  
+
+    - Exemplo: 
+        - var meuCarro = cor == "preto" ? "preto" : "branco";   
+
+ ### IF  
+ - if (...){}  
+
+ ### Else (alternativa de if)   
+ - else (...){}    
+ - por exemplo:
+      *if (cor == "preto") {meuCarro = "preto";} else {meuCarro = "cinza"}*  (se o carro for preto, virará cinza)  
+
+      *if (cor == "preto") {meuCarro = "preto";} else if {meuCarro = "amarelo";}* (vai fazendo o teste lógico até devolver o valor)  
+
+      *if (cor == "preto") {meuCarro = "preto";} else if {meuCarro = "amarelo";} else if {meuCarro = "verde"} else {meuCarro = "vermelho";}* (neste caso o else da uma condição de encerramento)  
+      
+ - Neste caso, o processador trabalha da seguinte forma: Se uma condição não é verdadeira, vai pra proxima, até que encontre uma verdadeira.
+ - **Muitos IFs pesam no codigo**  
+
+### Switch  
+
+ - switch (cor) {case "branco" : meuCarro = "branco" ; break ; case "azul" : meuCarro = "azul" ; break ;  default : console.log("Não temos a cor desejada")}   
+
+ - *case == caso*, ou seja, *caso* meu carro seja *"branco"*, ele sera *"branco"* e o *default* funciona como um escapa, como o *else* para o *if else* 
+ - no caso do *case* ele não para quando encontra uma condição verdadeira, precisando de *break;*
+ - o exemplo mais classico disso é atendimente de telemarketing: *" Para X aperte 1, para Y aperte 2, para Z aperte 3, para nenhuma dessas opções aperte 4"*
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
@@ -115,4 +166,10 @@
 
  #### 2.JS:Exibir média de 3 numeros com entradas pelo formulário HTML e enviar link no *git* ou *fiddle*
 
- - https://jsfiddle.net/aboyqwx0/3/
+ - https://jsfiddle.net/aboyqwx0/3/   
+
+
+ ## Condicionais   
+
+ - Estruturas que permitem direcionar o fluxo do codigo dependendo das variaveis que foram usadas
+ - Tambem tem alternativas caso alguma condição não seja atendida do modo esperado, oferencendo uma saida do codigo para que ou o *usuário ache outro caminho* ou não *trave o sistema*
