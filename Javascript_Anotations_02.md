@@ -73,9 +73,13 @@
  - tipagem: numero ou string
  - array (armazenam um conjunto de *coisas/valores*)   
 
- ### Operadores   
+ ## Estrutura   
 
- #### Aritmeticos: Retornam o resultado de uma operação  
+ - *tag* (*condição*) {*execução*}
+ - *tag* *([expressão inicial]; [condição]; [incremento];)* *{execução}*
+
+### Operadores
+#### Aritmeticos: Retornam o resultado de uma operação  
 
  - Soma +
  - Subtração -
@@ -83,20 +87,25 @@
  - Dividir /
  - Módulo % (é o resto da divisão dos dois primeiros)  
 
+
  #### Comparadores matematicos: teste lógico, retorno booleano (true/false)  
 
- - < menor que
- - > maior que
- - <= menor ou igual
- - >= maior ou igual  
+ - |< menor que
+ - |> maior que
+ - |<= menor ou igual
+ - |>= maior ou igual  
 
  #### Comparadores lógicos: teste lógico, retorno booleano (true/false)  
 
  - == igualdade entre sentenças (só valor)
  - != diferença entre sentenças (só valor)
  - === ig. entre sent. (valor & tipo)
- - !== diff. entre. sent. (valor & tipo)   
+ - !== diff. entre. sent. (valor & tipo)    
 
+ ## Condicionais   
+
+ - Estruturas que permitem direcionar o fluxo do codigo dependendo das variaveis que foram usadas
+ - Tambem tem alternativas caso alguma condição não seja atendida do modo esperado, oferencendo uma saida do codigo para que ou o *usuário ache outro caminho* ou não *trave o sistema*
  ### = é considerado atribuidor de valor; de modo que se *"a = b"* *a* terá valor de *b*   
  
  #### Comparadores de lógica e junção de lógica  
@@ -133,11 +142,29 @@
 
 ### Switch  
 
- - switch (cor) {case "branco" : meuCarro = "branco" ; break ; case "azul" : meuCarro = "azul" ; break ;  default : console.log("Não temos a cor desejada")}   
+ - *switch (cor) {case "branco" : meuCarro = "branco" ; break ; case "azul" : meuCarro = "azul" ; break ;  default : console.log("Não temos a cor desejada")}*   
 
  - *case == caso*, ou seja, *caso* meu carro seja *"branco"*, ele sera *"branco"* e o *default* funciona como um escapa, como o *else* para o *if else* 
  - no caso do *case* ele não para quando encontra uma condição verdadeira, precisando de *break;*
- - o exemplo mais classico disso é atendimente de telemarketing: *" Para X aperte 1, para Y aperte 2, para Z aperte 3, para nenhuma dessas opções aperte 4"*
+ - o exemplo mais classico disso é atendimente de telemarketing: *" Para X aperte 1, para Y aperte 2, para Z aperte 3, para nenhuma dessas opções aperte 4"*   
+
+#### Média   
+
+- var nota1 = 10;
+- var nota2 = 8;
+- var nota3 = 9;
+- var nota4 = 7.5;
+- var media = (nota1 + nota2 + nota3 + nota4) / 4;
+- if( media >= 7 ) {console.log("Aprovado")} else {console.log("Reprovado")}  
+
+### Laços de repetição  
+
+ - Necessita cond. de entrada e de saída, **se não tiver saída pode crashar a maquina.**  
+
+ - var km;
+ - var revisao = 10;
+
+  - for(km = 0; km < revisao; km++ ){console.log("apenas " + km + "kms então pode rodar")}
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
@@ -169,7 +196,3 @@
  - https://jsfiddle.net/aboyqwx0/3/   
 
 
- ## Condicionais   
-
- - Estruturas que permitem direcionar o fluxo do codigo dependendo das variaveis que foram usadas
- - Tambem tem alternativas caso alguma condição não seja atendida do modo esperado, oferencendo uma saida do codigo para que ou o *usuário ache outro caminho* ou não *trave o sistema*
