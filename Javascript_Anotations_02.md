@@ -137,12 +137,13 @@
 
       *if (cor == "preto") {meuCarro = "preto";} else if {meuCarro = "amarelo";} else if {meuCarro = "verde"} else {meuCarro = "vermelho";}* (neste caso o else da uma condição de encerramento)  
       
- - Neste caso, o processador trabalha da seguinte forma: Se uma condição não é verdadeira, vai pra proxima, até que encontre uma verdadeira.
+ - Neste caso, o processador trabalha da seguinte forma: Se uma condição não é verdadeira, vai pra proxima, até que encontre uma verdadeira.   
+
  - **Muitos IFs pesam no codigo**  
 
 ### Switch  
 
- - *switch (cor) {case "branco" : meuCarro = "branco" ; break ; case "azul" : meuCarro = "azul" ; break ;  default : console.log("Não temos a cor desejada")}*   
+*switch (cor) {case "branco" : meuCarro = "branco" ; break ; case "azul" : meuCarro = "azul" ; break ;  default : console.log("Não temos a cor desejada")}*   
 
  - *case == caso*, ou seja, *caso* meu carro seja *"branco"*, ele sera *"branco"* e o *default* funciona como um escapa, como o *else* para o *if else* 
  - no caso do *case* ele não para quando encontra uma condição verdadeira, precisando de *break;*
@@ -150,12 +151,12 @@
 
 #### Média   
 
-- var nota1 = 10;
-- var nota2 = 8;
-- var nota3 = 9;
-- var nota4 = 7.5;
-- var media = (nota1 + nota2 + nota3 + nota4) / 4;
-- if( media >= 7 ) {console.log("Aprovado")} else {console.log("Reprovado")}  
+var nota1 = 10;
+var nota2 = 8;
+var nota3 = 9;
+var nota4 = 7.5;
+var media = (nota1 + nota2 + nota3 + nota4) / 4;
+if( media >= 7 ) {console.log("Aprovado")} else {console.log("Reprovado")}  
 
 ### Laços de repetição  
 
@@ -164,7 +165,21 @@
  - var km;
  - var revisao = 10;
 
-  - for(km = 0; km < revisao; km++ ){console.log("apenas " + km + "kms então pode rodar")}
+for ( km = 0; km <= revisao; km++ ) { console.log ( "apenas" + km + "kms então pode rodar" ) }   
+                                        <!-- Liga a string com sinal de + para mostrar a mensagem-->
+#### Calculo de media de varios alunos   
+<!-- Nesse caso se trabalha com uma array [ ] dentro de outra array [ ] -->   
+
+var alunos = [
+     [6, 7, 8, 9,],
+     [5, 8, 9, 4,],
+     [4, 5, 2, 3,], 
+]
+     <!-- i é interação -->
+for (var i = 0; i < alunos.length; i++ ) {
+
+     aluno[i]
+}
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
