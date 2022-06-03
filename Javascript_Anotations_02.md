@@ -195,7 +195,24 @@ for (var i = 0; i < alunos.length; i++ ) {
  - O primeiro laço percorre os alunos
  - O segundo percorre as notas
  - i usado como indice de aluno; se o i = 0 vai constar o aluno1
- - Contagem no java começa do 0
+ - Contagem no java começa do 0   
+
+ #### While   
+
+- *"while"* condição persistir, executar *_______*
+while([condição]) {[execução]}   
+<!-- trabalhando com incremento  -->
+var contador = 0;
+while( contador < 10) {contador++}   
+
+var hora = 24;
+while (hora > 0) {console.log(hora); hora--; }  
+
+console.log("total de horas: " + hora);  
+
+#### Do  
+
+- *do { execução } while (condição)*
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
