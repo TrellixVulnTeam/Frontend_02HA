@@ -174,12 +174,28 @@ var alunos = [
      [6, 7, 8, 9,],
      [5, 8, 9, 4,],
      [4, 5, 2, 3,], 
-]
-     <!-- i é interação -->
-for (var i = 0; i < alunos.length; i++ ) {
+] 
 
-     aluno[i]
+var nota = 0;
+for (var i = 0; i < alunos.length; i++ ) { 
+      nota = 0 
+      notasAluno = alunos[i]
+      console.log ("Aluno: " + parseInt (i+1) );
+      console.log ("Notas: " + notasAluno);
+
+
+      for ( c = 0; c < notasAluno.length; c++ ){nota += notasAluno[c];} 
+
+      media = nota / 4;
+
+      if(media >= 7){resultado = "aprovado"}else{resultado = "reprovado"}
+
+      console.log("Media: " + media + " - " + resultado);
 }
+ - O primeiro laço percorre os alunos
+ - O segundo percorre as notas
+ - i usado como indice de aluno; se o i = 0 vai constar o aluno1
+ - Contagem no java começa do 0
 
  #### https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators   
 
