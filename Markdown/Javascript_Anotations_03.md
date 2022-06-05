@@ -29,4 +29,9 @@ function aprovacao (notas) {
 //console.log ( aprovacao ( calcularMedia ([8, 6]) ) )
    
 
-- este exemplo esta com o calculo dinâmico; o notas.length se adapta ao numero de notas
+- este exemplo esta com o calculo dinâmico; o notas.length se adapta ao numero de notas   
+
+## Funções Recursivas  
+
+- Manipula objetos na pagina HTML, como obtenção de dados da pagina HTML, por exemplo
+- 
