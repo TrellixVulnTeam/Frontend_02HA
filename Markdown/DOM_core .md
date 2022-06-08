@@ -59,6 +59,18 @@ elemente.addEventListener()     <-- *algo que observa o elemento*
 
 ##### O inspetor de site é um sistema do proprio navegador que consulta a API do DOM, usando pra montar e exibir todas informações pro desenvolvedor. (o playground do dev)   
 
+### Seletores   
+
+- (...)
+- Descritos por: 
+    - *tag, ID, class, name, query*
+    - *callback*
+    - getElementById()          <-- Mais específico
+    - getElementsByTagName()    <-- Mais genérico
+    - getElementsByName()       
+    - getElementsByClassName()  
+    - querySelectorAll // *#id | .class*
+
 ### Referencias:   
 
 - DOM: https://dom.spec.whatwg.org/
