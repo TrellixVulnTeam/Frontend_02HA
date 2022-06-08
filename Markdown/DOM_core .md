@@ -8,7 +8,8 @@
 
  - Funciona disponibilizando a API *(application programming interface)* , ja tendo rotinas e padrões definidos, trabalhando com metodos e funções montando a arvore de elementos do HTML transformando a pagina em objeto javascript e um de seus recursos são seletores: *(formas de selecionar determinado elemento)* , gerando objetos *(nó/node)*  
 
- - Por exemplo: 
+ - Por exemplo:   
+ 
                 //< html>  
 
                 //    < head>< /head>   
@@ -16,7 +17,7 @@
                 //    < body>< /head>   
 
                 //< /html>     
-                
+
 
  - Ou no caso de um objeto JS:  
 
