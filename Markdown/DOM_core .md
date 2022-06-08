@@ -9,7 +9,7 @@
  - Funciona disponibilizando a API *(application programming interface)* , ja tendo rotinas e padrões definidos, trabalhando com metodos e funções montando a arvore de elementos do HTML transformando a pagina em objeto javascript e um de seus recursos são seletores: *(formas de selecionar determinado elemento)* , gerando objetos *(nó/node)*  
 
  - Por exemplo:   
- 
+
                 //< html>  
 
                 //    < head>< /head>   
@@ -57,4 +57,9 @@ element.setAttribute('name')    <-- *define o atributo do elemento*
 element.getAttribtue('name')    <-- *pega o atributo do elemento*
 elemente.addEventListener()     <-- *algo que observa o elemento*  
 
-##### O inspetor de site é um sistema do proprio navegador que consulta a API do DOM, usando pra montar e exibir todas informações pro desenvolvedor. (o playground do dev)
+##### O inspetor de site é um sistema do proprio navegador que consulta a API do DOM, usando pra montar e exibir todas informações pro desenvolvedor. (o playground do dev)   
+
+### Referencias:   
+
+DOM: https://dom.spec.whatwg.org/
+Tecnologia JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
