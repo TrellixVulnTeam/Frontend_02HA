@@ -61,5 +61,5 @@ elemente.addEventListener()     <-- *algo que observa o elemento*
 
 ### Referencias:   
 
-DOM: https://dom.spec.whatwg.org/
-Tecnologia JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+- DOM: https://dom.spec.whatwg.org/
+- Tecnologia JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
