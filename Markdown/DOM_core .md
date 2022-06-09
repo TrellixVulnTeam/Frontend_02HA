@@ -69,7 +69,12 @@ elemente.addEventListener()     <-- *algo que observa o elemento*
     - getElementsByTagName()    <-- Mais genérico
     - getElementsByName()       
     - getElementsByClassName()  
-    - querySelectorAll // *#id | .class*
+    - querySelectorAll // *#id | .class*   
+
+### Formulários   
+
+- Precisa evitar que usuário passe dado incorreto, direcionando melhor o uso do sistema e proteger injeção de dados maliciosos.
+- Tambem para evitar erros e formatar dados com objetivo de facilitar o processamento.
 
 ### Referencias:   
 

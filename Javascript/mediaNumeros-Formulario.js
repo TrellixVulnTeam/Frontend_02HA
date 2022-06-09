@@ -33,27 +33,30 @@ function obterMedia(){
   
 } 
 
-document.addEventListener('submit' , function(event){
-    event.preventDefault();
+                //Calculo de media//
 
-    let formulario = document.getElementById('formulario_media')
-
-    let dados = new FormData(formulario);
-
-    let object = {  };
+document.getElementById('formulario_media').addEventListener('submit' , function(event){
     
+    event.preventDefault();
+    event.stopPropagation();
+
+    let dados = new FormData(this);
+
     // [] é o array
     let notas = []; 
     
     for (let key of dados.keys()) {
-        object[key] = dados.get(key);
+
+        // parseFloat pode ser numero E decimal
+        let numero = dados.get(key).match(/\d/) ? Number(dados.get(key)) :0 ;
+
+        if(!isNaN(numero)) {
+            notas.push(numero);
+        }
         
         //push adiciona itens no array
-        notas.push( parseInt(dados.get(key)));
     }
     console.log(notas);
-
-    console.log(object);
 
     texto = aprovacao(notas)
     

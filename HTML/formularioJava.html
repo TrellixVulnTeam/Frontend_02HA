@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="font-family: Arial, Helvetica, sans-serif";>
+	<head>
+		<title>Formulario Java</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+
+		<!-- Estilos Personalizados -->
+        <link rel="stylesheet" type="text/css" href="../CSS/reset_doctor.css"> 
+        <link rel="stylesheet" type="text/css" href="../CSS/CSS_Simple.css">
+        <!-- html {font-family: Arial, Helvetica, sans-serif;}input, button{display: block; margin: 5px;} *style inline*  -->
+        
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">  
+	</head>
+	<body>
+
+        <header>
+            <h1>Formulários usando Javascript</h1>
+        </header>
+
+        <div class="container" id="calculoMedia">
+            <h2>Digite os numeros para calcular a media</h2>           
+                <form id="formulario_media" >
+                    <input type="text" placeholder="Digite um Numero" name="n1">
+                    <input type="text" placeholder="Digite um Numero" name="n2">
+                    <input type="text" placeholder="Digite um Numero" name="n3">
+                    <input type="text" placeholder="Digite um Numero" name="n4">
+                    <button onclick="obterMedia()">
+                    Calcular média 
+                    </button>
+                </form>
+           <div id="resultado" style="display: block; margin: 5px;"> </div>
+           
+        </div>
+
+        <div class="container" id="registro">
+
+            <h2 id="p1">Faça seu cadastro</h2>          
+                <form id="formulario_cadastro" >
+                    <input type="text" placeholder="Digite seu email" name="n1">
+
+                    <button onclick="obterMedia()">
+                    Enviar
+                    </button>
+                </form>
+           <div id="resultado" style="display: block; margin: 5px;"> </div>
+           
+        </div>
+
+        <script type="text/javascript" src="../Javascript/mediaNumeros-Formulario.js"></script>
+
+        <footer>Desenvolvido por João P. Avelãs</footer>
+
+    </body>
