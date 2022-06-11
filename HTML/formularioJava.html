@@ -22,14 +22,17 @@
         <header>
             <h1>Formulários usando Javascript</h1>
         </header>
-
+            
         <div class="container" id="calculoMedia">
-            <h2>Digite os numeros para calcular a media</h2>           
+            
+            <h2>Digite os numeros de 0 a 10 para calcular a media</h2>
+
                 <form id="formulario_media" >
-                    <input type="text" placeholder="Digite um Numero" name="n1">
-                    <input type="text" placeholder="Digite um Numero" name="n2">
-                    <input type="text" placeholder="Digite um Numero" name="n3">
-                    <input type="text" placeholder="Digite um Numero" name="n4">
+                    <input type="text" placeholder="Digite um Numero" class="numero" name="n1">
+                    <input type="text" placeholder="Digite um Numero" class="numero" name="n2">
+                    <input type="text" placeholder="Digite um Numero" class="numero" name="n3">
+                    <input type="text" placeholder="Digite um Numero" class="numero" name="n4">
+                    <br>
                     <button onclick="obterMedia()">
                     Calcular média 
                     </button>
@@ -37,13 +40,16 @@
            <div id="resultado" style="display: block; margin: 5px;"> </div>
            
         </div>
-
+       
+        
         <div class="container" id="registro">
-
-            <h2 id="p1">Faça seu cadastro</h2>          
-                <form id="formulario_cadastro" >
-                    <input type="text" placeholder="Digite seu email" name="n1">
-
+            <h2 id="p1">Faça seu cadastro</h2>
+             <div class="mensagenErro"></div>          
+                <form id="formularioCadastro" >
+                    <input type="text" id="nome" placeholder="Digite seu Nome Completo*" class="Obrigatorio" name="Nome">
+                    <input type="text" id="email" placeholder="Digite seu Email*" class="Obrigatorio" name="Email">
+                    <input type="text" id="telefone" placeholder="Digite seu Telefone para contato" name="Telefone">
+                    <br>
                     <button onclick="obterMedia()">
                     Enviar
                     </button>

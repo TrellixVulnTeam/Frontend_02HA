@@ -5,7 +5,7 @@ function calcularMedia (notas) {
     return media;
 }
 
-//escopo global
+                //escopo global
 let media;
 function aprovacao(notas){
     let media = calcularMedia(notas);
@@ -13,7 +13,7 @@ function aprovacao(notas){
     return 'Média: ' + media + ' - Resultado: ' + condicao;
 }
 
-// Função Recursiva 
+                // Função Recursiva 
 function contagemRegressiva(numero){
     console.log(numero);
     let proximoNumero = numero - 1;
@@ -33,8 +33,7 @@ function obterMedia(){
   
 } 
 
-                //Calculo de media//
-
+                    //Calculo de media//
 document.getElementById('formulario_media').addEventListener('submit' , function(event){
     
     event.preventDefault();
@@ -48,7 +47,7 @@ document.getElementById('formulario_media').addEventListener('submit' , function
     for (let key of dados.keys()) {
 
         // parseFloat pode ser numero E decimal
-        let numero = dados.get(key).match(/\d/) ? Number(dados.get(key)) :0 ;
+        let numero = dados.get(key).match(/\d*/) ? Number(dados.get(key)) :0 ;
 
         if(!isNaN(numero)) {
             notas.push(numero);
@@ -61,4 +60,37 @@ document.getElementById('formulario_media').addEventListener('submit' , function
     texto = aprovacao(notas)
     
     document.getElementById('resultado').innerHTML = aprovacao(notas);
-});
+}); 
+
+                    //Validação dos campos
+function validaCampo (elemento){  
+
+            elemento.addEventListener('focusout', function(event) {
+
+                event.preventDefault();
+
+                if(this.value != "" &&  this.value.match(/[0-9]]*/) && this.value >= 0 && this.value <= 10 ){
+
+                     document.querySelector('.mensagenErro').innerHTML = "";
+                    this.classList.remove('Erro')
+
+                } else {
+                    document.querySelector('.mensagenErro').innerHTML = "Os campos com * são obrigatorios.";
+                    this.classList.add('Erro')
+                    return false;
+                }
+            });
+
+}
+
+let campoObrigatorio = document.querySelectorAll('input.Obrigatorio'); 
+let = document.querySelectorAll('input.numero'); 
+
+
+for (let emFoco of campoObrigatorio ) {
+    validaCampo(emFoco)
+}
+
+for (let emFoco of camponumeroObrigatorio ) {
+    validacamponumeroObrigatorio(emFoco)
+}
