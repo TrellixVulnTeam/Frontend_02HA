@@ -23,28 +23,28 @@
             <h1>Formulários usando Javascript</h1>
         </header>
             
-        <div class="container" id="registro">
+    <div class="container" id="registro">
         
         <div  id="registroForm">
             <h2 id="p1">Faça seu cadastro</h2>
-            <!-- <h5>Os campos com * são obrigatorios</h5> -->
+            <h5>Os campos com * são obrigatorios</h5>
              <div class="mensagenErro"></div>          
                 <form id="formularioCadastro" >
-                    <input type="text" id="nome" placeholder="Digite seu Nome Completo*" class="Obrigatorio" name="Nome">
-                    <input type="text" id="email" placeholder="Digite seu Email*" class="Obrigatorio" name="Email">
-                    <input type="text" id="telefone" placeholder="Digite seu Telefone para contato*" class="Obrigatorio" name="Email">
-                    <input type="text" id="cep" placeholder="Digite seu CEP"  name="CEP">
-                    <input type="text" id="cidade" placeholder="Digite sua Cidade"  name="Cidade">
-                    <input type="text" id="uf" placeholder="Digite sua Unidade Federal"  name="UF">
+                    <input type="text" placeholder="Digite seu Nome Completo*" class="obrigatorio" name="Nome">
+                    <input type="text" placeholder="Digite seu Email*" class="obrigatorioEmail" name="Email">
+                    <input type="text" placeholder="Digite seu Telefone para contato" class="" name="Telefone">
+                    <input type="text" placeholder="Digite seu CEP" class="numerico" name="CEP">
+                    <input type="text" placeholder="Digite sua Cidade"  name="Cidade">
+                    <input type="text" placeholder="Digite sua Unidade Federal*" class="obrigatorioUF"  name="UF">
 
                     <br>
                     <button type="submit">Enviar</button>                  
                     
                 </form>
-           <div id="resultado" style="display: block; margin: 5px;"> </div>         
+           <!-- <div id="resultado" style="display: block; margin: 5px;"> </div> -->
         </div>
-
-        <script type="text/javascript" src="../Javascript/mediaNumeros-Formulario.js"></script>
+    </div> 
+        <script type="text/javascript" src="./formularioJava.js"></script>
 
         <footer>Desenvolvido por João P. Avelãs</footer>
 
