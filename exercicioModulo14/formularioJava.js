@@ -30,6 +30,30 @@ function validaCampo (elemento){
 function validaCampoNumerico(elemento){
 
     elemento.addEventListener('focusout', function(event) {
+        
+        event.preventDefault();
+        
+        if( this.value != "" && this.value.match(/[0-9]*/) && this.value >= 0 && this.value <= 10 ) {
+            document.querySelector('.mensagenErro').innerHTML = "";
+
+            this.classList.remove('erro');
+            this.parentNode.classList.remove('erro');
+
+        } else {
+            document.querySelector('.mensagenErro').innerHTML = "Verifique o preenchimento correto do CEP";
+            this.classList.add('erro');
+            this.parentNode.classList.add('erro');
+            return false;
+        }
+    });
+}
+
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+                    //Validação Campo Numérico (CEP)
+
+function validaCampoNumerico(elemento){
+    elemento.addEventListener('focusout', function(event) {
 
         event.preventDefault();
       
@@ -87,7 +111,7 @@ function unidadeFed(elemento){
 
         event.preventDefault();
 
-        const unidadeFed = /^[a-z]/i
+        const unidadeFed = /A[CLMP]|BA|CE|ES|M[AGST]|P[ABEIR]|R[JNORS]|S[CEP]|[GT]O/i;
         if( this.value.match(unidadeFed)){
 
             document.querySelector('.mensagenErro').innerHTML = "";
@@ -96,7 +120,7 @@ function unidadeFed(elemento){
 
         } else {
 
-            document.querySelector('.mensagenErro').innerHTML = "Verifique o preenchimento correto da Unidade Federal";
+            document.querySelector('.mensagenErro').innerHTML = "Verifique o preenchimento correto da Unidade Federal; como por exemplo SP.";
             this.classList.add('erro');
             this.parentNode.classList.add('erro');
             return false;
