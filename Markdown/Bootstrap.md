@@ -93,3 +93,5 @@ html {
 
 *Etc...*  
 
+## Em suma: O bootstrap é uma ferramenta que "programa por voce" em partes, e como toda ferramenta, não se pode deixa-la virar uma muleta e não substitui o desenvolvedor.
+
