@@ -10,38 +10,63 @@
     <link href="../Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <div class="container container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 ">
-                <h1>Coluna 1</h1>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi veritatis provident officiis iusto fugiat dolores excepturi fuga voluptas eligendi accusantium, sit ducimus ad vero repudiandae ex nobis! Fuga, delectus?</p>
-                 <a class="btn btn-lg btn-success ">Butão 1</a>
-                 
-            </div>
-            <div class="col-md-6 col-sm-12 ">
-                <h2>Coluna 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis facere error molestias, impedit laboriosam eius dolore ipsa pariatur voluptatem tempore optio quibusdam. Minima, ratione fugit. Pariatur at rem deserunt.</p>
-                <a class="btn btn-small btn-danger">Butão 2</a>
-            </div>
-        </div>
-    </div>
 
+<header>
     <div class="container">
         <div class="row">
-            <!-- Unidade = LarguraDaArea/12 -->
-            <div class="col-md-6 col-sm-12 ">Linha 1 Coluna 1</div>
-            <div class="col-md-6 col-sm-12 ">Linha 1 Coluna 2</div>
-        </div>
-        <div class="row">
-            <div class="col">Linha 2 Coluna 1</div>
-        </div>
-        <div class="row">
-            <div class="col">Linha 3 Coluna 1</div>
-            <div class="col">Linha 3 Coluna 2</div>
-            <div class="col">Linha 3 Coluna 3</div>
+            <div class="col">
+                
+                <h1>Logo - Titulo</h1>
+
+            </div>
+                <div class="col">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                            <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </div>
+</header>
+
+        <section id="sobre">
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 ">
+                        <h1>Sobre nós</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi veritatis provident officiis iusto fugiat dolores excepturi fuga voluptas eligendi accusantium, sit ducimus ad vero repudiandae ex nobis! Fuga, delectus? 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi veritatis provident officiis iusto fugiat dolores excepturi fuga voluptas eligendi accusantium, sit ducimus ad vero repudiandae ex nobis! Fuga, delectus?
+                            </p>
+                            <a class="btn btn-lg btn-success ">Butão 1</a> 
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="ImagenNotebook" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap precisa das estrutura correta, do contrario não funciona. -->
+        <section id="produtos">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="card">
+                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
     
     <!-- .container.>.row>.col*3> -->
     <!-- Bootstrap JS -->
