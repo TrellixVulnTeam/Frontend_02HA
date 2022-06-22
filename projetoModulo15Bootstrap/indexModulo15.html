@@ -8,6 +8,14 @@
     <title>Bootstrap Módulo 15</title>
     <!-- Bootstrap CSS -->
     <link href="../Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./CSS_Simple2.css">
+    <!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
@@ -37,11 +45,11 @@
             <div class="container container-fluid">
                 <div class="row">
                     <div class="col-md-7 col-sm-12 ">
-                        <h1>Sobre nós</h1>
+                        <h2>Sobre nós</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi veritatis provident officiis iusto fugiat dolores excepturi fuga voluptas eligendi accusantium, sit ducimus ad vero repudiandae ex nobis! Fuga, delectus? 
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi veritatis provident officiis iusto fugiat dolores excepturi fuga voluptas eligendi accusantium, sit ducimus ad vero repudiandae ex nobis! Fuga, delectus?
                             </p>
-                            <a class="btn btn-lg btn-success ">Butão 1</a> 
+                            <a class="btn btn-lg btn-success ">Botão 1</a> 
                     </div>
                     <div class="col-md-5 col-sm-12">
                         <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="ImagenNotebook" class="img-fluid">
@@ -55,10 +63,32 @@
                 <div class="row">
                     <div class="col">
 
+                        <h2>Produtos</h2>
+
                         <div class="card">
                             <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
                             <div class="card-body">
-                                <h5 class="card-title"></h5>
+                                <h5 class="card-title">Lorem breve 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-primary"  href="#produto-1">Ver produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem breve 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-primary" href="#produto-2">Ver produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem breve 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-primary"  href="#produto-3">Ver produto</a>
                             </div>
                         </div>
 
@@ -67,7 +97,40 @@
             </div>
 
         </section>
-    
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Contato</h2>
+                        <p>Interessado? Favor preencher o formulario para receber uma cotação.</p>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-12">
+                        <form class="form">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="Nome Completo" id="">
+                            </div>
+
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="email" placeholder="Endereço de Email" id="">
+                            </div>
+
+                            <div class="input-group">
+                                <textarea class="form-control" type="text" name="" placeholder="" id="" rows="5"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>Desenvolvido por João P. Avelãs</footer>
     <!-- .container.>.row>.col*3> -->
     <!-- Bootstrap JS -->
     <script src="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>

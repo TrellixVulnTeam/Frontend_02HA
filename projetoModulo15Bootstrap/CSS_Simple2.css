@@ -1,0 +1,80 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;
+    border-radius: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(174, 198, 202);
+    border: solid rgb(46, 46, 46) .2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+    background-color: aliceblue;
+    font-weight: 600;
+    border: solid rgb(26, 26, 26) 3px;
+    margin: 2%;
+    border-radius: 5%;
+}
+
+.nav-link:hover {
+    background-color: aqua;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: .5%;
+    font-size: 1.2rem;
+    font-weight: bold ;
+}
+
+input {
+    border-radius: .2rem;
+    margin: .2%;
+    padding: .1%;
+    width: 50%;
+}
+
+
+footer {
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(95, 95, 95);
+    border: solid rgb(46, 46, 46) 3px;
+    text-align: center;
+    border-radius: 1%;
+}
+
+/* Modulo 15 Bootstrap */
+
+.card {
+    float: left;
+    border-radius: 5%;
+    margin: 1%;
+    width: 30%;
+}
+
+img {
+    border-radius: 5%;
+}
+
+button {
+    margin-top: 1%;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 500;
+}
