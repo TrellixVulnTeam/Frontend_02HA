@@ -66,7 +66,7 @@
                         <h2>Produtos</h2>
 
                         <div class="card">
-                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="notebook1" class="img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem breve 1</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -75,20 +75,20 @@
                         </div>
 
                         <div class="card">
-                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <img src="./imagensProjMod15/pexels-tuur-tisseghem-812264.jpg" alt="notebook2" class="img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem breve 2</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-primary" href="#produto-2">Ver produto</a>
+                                <a class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#modal-2" >Ver produto</a>
                             </div>
                         </div>
 
                         <div class="card">
-                            <img src="./imagensProjMod15/pexels-nao-triponez-792199.jpg" alt="" class="img-fluid">
+                            <img src="./imagensProjMod15/pexels-xxss-is-back-777001.jpg" alt="desktop2Monitor" class="img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem breve 3</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-primary"  href="#produto-3">Ver produto</a>
+                                <a class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#modal-3" >Ver produto</a>
                             </div>
                         </div>
 
@@ -130,6 +130,7 @@
             </div>
         </section>
 
+                    <!-- MODAL 1 -->
         <div class="modal fade" id="modal-1">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -138,27 +139,107 @@
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <h6>Confira os tamanhos e os preços</h6>
+                        <h6>Confira os modelos e os preços</h6>
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Tamanho</th>
+                                    <th>Modelo</th>
                                     <th>Valor</th>
                                 </tr>
                             </thead>
                                 <tbody>
                                     <tr>
-                                        <td>P</td>
+                                        <td>PX</td>
                                         <td>100 R$</td>
                                     </tr>
                                     <tr>
-                                        <td>M</td>
+                                        <td>MS</td>
                                         <td>200 R$</td>
                                     </tr>
                                     <tr>
-                                        <td>G</td>
+                                        <td>GT</td>
                                         <td>300 R$</td>
                                     </tr> 
+                                </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+                    <!-- MODAL 2 -->
+        <div class="modal fade" id="modal-2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto 2</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>H55</td>
+                                        <td>1200 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GG7</td>
+                                        <td>2450 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZX-90</td>
+                                        <td>Em Falta</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL 3 -->
+        <div class="modal fade" id="modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto 2</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>77-80</td>
+                                        <td>11000 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2280</td>
+                                        <td>20600 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3000</td>
+                                        <td>35000 R$</td>
+                                    </tr>
                                 </tbody>
                         </table>
                     
