@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Módulo 15</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Módulo 15</title>
+    <!-- Bootstrap CSS -->
+    <link href="../Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./CSS_Simple2.css">
+    <!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    
+                    <h1>Logo - Titulo</h1>
+                
+                </div>
+                    <div class="col">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                <li class="nav-item"><a class="nav-link active" href="./indexModulo15.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#sobre">Sobre</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#produtos">Produtos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#contato">Contato</a></li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+        <section id="contato">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h2>Cadastro</h2>
+                        <p>Cadastre-se para receber o produto em sua casa.</p>
+                    </div>
+                </div>    
+
+                <form class="form">
+                    <div class="form-row">                   
+                        <div class="col">
+                            <div class="input-group">
+                                <!-- <label for="nome">Nome completo</label> -->
+                                <input class="form-control" type="text" name="nome" placeholder="Nome Completo" id="nome">
+                            </div>
+                        </div>  
+                        <div class="col">
+                            <div class="input-group">
+                                <!-- <label for="email">Email</label> -->
+                                <input class="form-control" type="text" name="email" placeholder="Endereço de Email" id="email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <!-- <label for="endereco">Endereço completo</label> -->
+                            <input type="text" class="form-control" id="endereco" placeholder="Endereço completo.">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <!-- <label for="cidade">Cidade</label> -->
+                            <input type="text" name="cidade" id="cidade" placeholder="Aqui sua Cidade de residência" class="form-control">
+                        </div>
+                        <div class="col">
+                            <!-- <label for="estado">Estado</label> -->
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="estado" placeholder="Aqui seu Estado de residência." id="estado">
+                            </div>
+                        </div>
+                        <div class="col">
+                           <!-- <label for="cep" >CEP</label>
+                            "for" no "label" faz referencia ao ID -->
+                            <input type="text" name="cep" id="cep" placeholder="Aqui seu CEP" class="form-control">
+                        </div>
+                            <!-- "name" no "input" trabalha com o envio do formulario  -->
+                            <!-- ou seja, a informação que vai com o nome do campo ao HTTP -->
+                            <!-- ja o ID é pra trabalhar com o elemento na pagina; facilitando acesso -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group">
+                                <!-- <label for="info" class="col-form-label-sm" >Informações</label> -->
+                                <textarea class="form-control" type="text" name="" placeholder="Informações" id="info" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="form-check">
+                                <input type="checkbox" name="promocionais" id="promocionais">
+                                <label for="promocionais" class="form-check-label">Aceito receber informações promocionais</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-lg btn-success">Enviar cadastro</button>
+                </form>
+
+            </div> <!-- Fim do .container  -->
+
+        </section>
+
+                    <!-- MODAL 1 -->
+        <div class="modal fade" id="modal-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto 1</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>PX</td>
+                                        <td>100 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MS</td>
+                                        <td>200 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GT</td>
+                                        <td>300 R$</td>
+                                    </tr> 
+                                </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+                    <!-- MODAL 2 -->
+        <div class="modal fade" id="modal-2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto 2</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>H55</td>
+                                        <td>1200 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GG7</td>
+                                        <td>2450 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ZX-90</td>
+                                        <td>Em Falta</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODAL 3 -->
+        <div class="modal fade" id="modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto 2</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>77-80</td>
+                                        <td>11000 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2280</td>
+                                        <td>20600 R$</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3000</td>
+                                        <td>35000 R$</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>Desenvolvido por João P. Avelãs</footer>
+
+        <!-- Bootstrap JS -->
+    <script src="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
