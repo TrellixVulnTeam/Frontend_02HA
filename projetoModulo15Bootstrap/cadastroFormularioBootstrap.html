@@ -53,42 +53,42 @@
 
                 <form class="form">
                     <div class="form-row">                   
-                        <div class="col">
-                            <div class="input-group">
-                                <!-- <label for="nome">Nome completo</label> -->
-                                <input class="form-control" type="text" name="nome" placeholder="Nome Completo" id="nome">
-                            </div>
-                        </div>  
-                        <div class="col">
-                            <div class="input-group">
-                                <!-- <label for="email">Email</label> -->
-                                <input class="form-control" type="text" name="email" placeholder="Endereço de Email" id="email">
-                            </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <!-- <label for="nome">Nome completo</label> -->
+                            <input type="text" class="form-control"  name="nome" placeholder="Nome Completo" id="nome">
                         </div>
+                    </div>  
+                    <div class="col">
+                        <div class="input-group">
+                            <!-- <label for="email">Email</label> -->
+                            <input  type="text" class="form-control" name="email" placeholder="Endereço de Email" id="email">
+                        </div>
+                    </div>
                     </div>
 
                     <div class="row">
                         <div class="col">
                             <!-- <label for="endereco">Endereço completo</label> -->
-                            <input type="text" class="form-control" id="endereco" placeholder="Endereço completo.">
+                            <input type="text" class="form-control" name="" placeholder="Endereço completo." id="endereco">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col">
                             <!-- <label for="cidade">Cidade</label> -->
-                            <input type="text" name="cidade" id="cidade" placeholder="Aqui sua Cidade de residência" class="form-control">
+                            <input type="text" class="form-control"  name="cidade" placeholder="Aqui sua Cidade de residência" id="cidade">
                         </div>
                         <div class="col">
                             <!-- <label for="estado">Estado</label> -->
                             <div class="input-group">
-                                <input class="form-control" type="text" name="estado" placeholder="Aqui seu Estado de residência." id="estado">
+                                <input type="text" class="form-control" name="estado" placeholder="Aqui seu Estado de residência." id="estado">
                             </div>
                         </div>
                         <div class="col">
                            <!-- <label for="cep" >CEP</label>
                             "for" no "label" faz referencia ao ID -->
-                            <input type="text" name="cep" id="cep" placeholder="Aqui seu CEP" class="form-control">
+                            <input type="text" class="form-control" name="cep" placeholder="Aqui seu CEP" id="cep" >
                         </div>
                             <!-- "name" no "input" trabalha com o envio do formulario  -->
                             <!-- ou seja, a informação que vai com o nome do campo ao HTTP -->
@@ -99,7 +99,7 @@
                         <div class="col">
                             <div class="input-group">
                                 <!-- <label for="info" class="col-form-label-sm" >Informações</label> -->
-                                <textarea class="form-control" type="text" name="" placeholder="Informações" id="info" rows="5"></textarea>
+                                <textarea  class="form-control" name="" placeholder="Informações" id="info" rows="5"></textarea>
                             </div>
                         </div>
                     </div>
@@ -116,6 +116,8 @@
 
                     <button type="submit" class="btn btn-lg btn-success">Enviar cadastro</button>
                 </form>
+
+            <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-reg" ><p>Cadastre-se para receber informações promocionais!</p></a> 
 
             </div> <!-- Fim do .container  -->
 
@@ -201,7 +203,7 @@
             </div>
         </div>
 
-        <!-- MODAL 3 -->
+                     <!-- MODAL 3 -->
         <div class="modal fade" id="modal-3">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -237,6 +239,29 @@
                     </div>
                     <div class="modal-footer"></div>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+                    <!-- MODAL FormularioRegistro -->
+        <div class="modal fade" id="modal-reg">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Cadastro</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Preencha os campos para efetuar seu cadastro.</h6>
+                            <form class="form-inline">
+                                <input type="text" class="form-control mb-2" name="Nome completo" placeholder="Nome completo" required>
+                                <input type="text" class="form-control mb-2" name="Email" placeholder="Email" required>
+                                <button type="submit" class="btn btn-success">Inscrever</button>
+                            </form>                                
+                    
+                        </div>
+                    <div class="modal-footer"></div>
+                        <button type="button" class="btn btn-secondary mb-2 " data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
