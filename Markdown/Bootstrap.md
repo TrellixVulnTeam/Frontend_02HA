@@ -38,6 +38,33 @@
 
 #### **O importante é aprender quando aplicar cada ferramenta**  
 
+
+### Componentes  
+
+- Templates re-utilizaveis; blocos com funções diversas 
+- BS tem diversos componentes disponiveis; o desafio é saber qual usar quando; para mais detalhes dos componentes em *https://getbootstrap.com/docs/5.0/components/accordion/*
+- alguns exemplos:
+    - Accordion - menu horizontal colapsável 
+    - Button - botão que realiza ação quando clicado
+    - Card - uma 'carta', um container de conteudo multiplas variações tanto de funções como de opções
+    - Collapse - esconde algun conteudo do site, como por exemplo um menu de escolha/indice/menu com links
+    - Modal - Utiliza o plugin de js do bootstrap  
+
+#### Helpers
+- Incrementam componentes; alterar cor, posicionamento etc.  
+
+#### Utilities  
+
+- Utilidades usadas para modificar os padrões pré-definidos pelo BS, por exemplo: *tamanho, cor, posição, espaçamento, alinhamento etc.*
+- https://getbootstrap.com/docs/5.0/utilities/api/  
+
+#### Icones  
+
+- Enquanto BS não inclui icones propriamente dito, tem bibliotecas extansivas de icones.
+- *https://fontawesome.com/*
+- *https://feathericons.com/*
+    
+##### O real importante do bootstrap é a **class**, que é o metodo que o JS usa para interagir com o HTML  
 #### Vantagens do bootstrap  
 
 - Uso muito simples, tudo que precisa é um import de CSS para que voce possa aplicar as classes e começar a estruturar seu layout, não precisando criar componentes individuais.  
