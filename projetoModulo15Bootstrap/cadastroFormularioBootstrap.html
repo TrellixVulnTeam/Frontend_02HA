@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Cadastro</title>
+    <title>Formulário de Cadastro Bootstrap</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,20 +23,31 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    
                     <h1>Logo - Titulo</h1>
-                
                 </div>
-                    <div class="col">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <li class="nav-item"><a class="nav-link active" href="./indexModulo15.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#sobre">Sobre</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#produtos">Produtos</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./indexModulo15.html#contato">Contato</a></li>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="col">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <object type="image/svg+xml" id="primerIcon" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/home.svg"></object>
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+
+                        <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/book-open.svg"></object>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+
+                        <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/package.svg"></object>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+
+                        <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/phone.svg"></object>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+
+                        <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/edit-2.svg"></object>
+                        <li class="nav-item"><a class="nav-link" href="cadastroFormularioBootstrap.html">Cadastro</a></li>
+
+                    </li>
+                </ul>
+            </div>
+
             </div>
         </div>
     </header>
@@ -47,7 +58,10 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <h2>Cadastro</h2>
-                        <p>Cadastre-se para receber o produto em sua casa.</p>
+                        <p>
+                            Cadastre-se para receber o produto em sua casa.<br>
+                            Campos com * são obrigatórios
+                        </p>
                     </div>
                 </div>    
 
@@ -55,40 +69,43 @@
                     <div class="form-row">                   
                     <div class="col">
                         <div class="input-group">
-                            <!-- <label for="nome">Nome completo</label> -->
-                            <input type="text" class="form-control"  name="nome" placeholder="Nome Completo" id="nome">
+                            <input type="text" class="form-control"  name="nome" placeholder="Nome Completo*" id="nome" required>
                         </div>
                     </div>  
                     <div class="col">
                         <div class="input-group">
-                            <!-- <label for="email">Email</label> -->
-                            <input  type="text" class="form-control" name="email" placeholder="Endereço de Email" id="email">
+                            <input  type="text" class="form-control" name="email" placeholder="Endereço de Email*" id="email" required>
                         </div>
                     </div>
                     </div>
 
                     <div class="row">
                         <div class="col">
-                            <!-- <label for="endereco">Endereço completo</label> -->
-                            <input type="text" class="form-control" name="" placeholder="Endereço completo." id="endereco">
+                            <input type="text" class="form-control" name="" placeholder="Endereço e Complemento" id="endereco">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col">
-                            <!-- <label for="cidade">Cidade</label> -->
-                            <input type="text" class="form-control"  name="cidade" placeholder="Aqui sua Cidade de residência" id="cidade">
-                        </div>
-                        <div class="col">
-                            <!-- <label for="estado">Estado</label> -->
                             <div class="input-group">
-                                <input type="text" class="form-control" name="estado" placeholder="Aqui seu Estado de residência." id="estado">
+                                <input type="text" class="form-control" name="telefone" placeholder="Telefone para contato*" id="telefone" required>
                             </div>
                         </div>
+
                         <div class="col">
-                           <!-- <label for="cep" >CEP</label>
-                            "for" no "label" faz referencia ao ID -->
-                            <input type="text" class="form-control" name="cep" placeholder="Aqui seu CEP" id="cep" >
+                            <input type="text" class="form-control" name="cidade" placeholder="Aqui sua Cidade E Bairro de residência" id="cidade">
+                        </div>
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="estado" placeholder="Aqui seu Estado de residência" id="estado">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!--"for" no "label" faz referencia ao ID -->
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="cep" placeholder="Aqui seu CEP" id="cep" >
+                            </div>
                         </div>
                             <!-- "name" no "input" trabalha com o envio do formulario  -->
                             <!-- ou seja, a informação que vai com o nome do campo ao HTTP -->
@@ -98,8 +115,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="input-group">
-                                <!-- <label for="info" class="col-form-label-sm" >Informações</label> -->
-                                <textarea  class="form-control" name="" placeholder="Informações" id="info" rows="5"></textarea>
+                                <textarea  class="form-control" name="" placeholder="Deixe aqui seu comentário" id="info" rows="5"></textarea>
                             </div>
                         </div>
                     </div>
@@ -117,7 +133,7 @@
                     <button type="submit" class="btn btn-lg btn-success">Enviar cadastro</button>
                 </form>
 
-            <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-reg" ><p>Cadastre-se para receber informações promocionais!</p></a> 
+            <!-- <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-reg" ><p>Cadastre-se para receber informações promocionais!</p></a>  -->
 
             </div> <!-- Fim do .container  -->
 
@@ -243,8 +259,8 @@
             </div>
         </div>
 
-                    <!-- MODAL FormularioRegistro -->
-        <div class="modal fade" id="modal-reg">
+                    <!-- MODAL FormularioRegistro -->                  
+        <!-- <div class="modal fade" id="modal-reg">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -257,7 +273,7 @@
                                 <input type="text" class="form-control mb-2" name="Nome completo" placeholder="Nome completo" required>
                                 <input type="text" class="form-control mb-2" name="Email" placeholder="Email" required>
                                 <button type="submit" class="btn btn-success">Inscrever</button>
-                            </form>                                
+                            </form>                                 -->
                     
                         </div>
                     <div class="modal-footer"></div>
