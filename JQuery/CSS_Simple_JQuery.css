@@ -39,10 +39,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    text-decoration: underline;
-    background-color: rgb(203, 213, 221);
-}
 
 #aviso {
     background-color: rgb(214, 214, 214);
@@ -96,3 +92,9 @@ img {
 h6 {
     font-size: large;
 }
+
+.carousel-caption {
+    text-shadow: 2px 2px black;
+}
+
+
