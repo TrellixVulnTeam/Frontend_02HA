@@ -23,4 +23,10 @@
 
 ```
     $('h4 , h6') | com , para todo h4 e h6
-    $('div h4')  | com espaço para todo h4 que vier depois de uma div 
+    $('div h4')  | com espaço para todo h4 que vier depois de uma div.
+```   
+
+## https://w3schools.com/jquery/
+- *Mais completo*   
+
+## https://jquery.com  
