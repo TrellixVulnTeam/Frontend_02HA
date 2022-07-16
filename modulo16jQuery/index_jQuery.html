@@ -10,90 +10,109 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS_Simple_JQuery.css">
     <link rel="stylesheet" href="FeatherIcons/">
-
+    
     <!-- GOOGLE FONTS -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
-
+    
 </head>
 <body>
-
+    
     <header>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>WebLoja - jQuery</h1>
+                    <img id="WebLogoLoja" src="../modulo16jQuery/WebLojaLogo.png" alt="">
                 </div>
-    
-                    <div class="col">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <object type="image/svg+xml" id="primerIcon" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/home.svg"></object>
-                                <li class="nav-item"><a class="nav-link active" href="indexModulo15.html">Home</a></li>
-    
-                                <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/book-open.svg"></object>
-                                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-    
-                                <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/package.svg"></object>
-                                <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
-    
-                                <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/phone.svg"></object>
-                                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-    
-                                <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/edit-2.svg"></object>
-                                <li class="nav-item"><a class="nav-link" href="cadastroFormularioBootstrap.html">Cadastro</a></li>
-    
-                            </li>
-                        </ul>
-                    </div>
-    
+                
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <object type="image/svg+xml" id="primerIcon" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/home.svg"></object>
+                            <li class="nav-item"><a class="nav-link active" href="indexModulo15.html">Home</a></li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/book-open.svg"></object>
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/package.svg"></object>
+                            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/phone.svg"></object>
+                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/edit-2.svg"></object>
+                            <li class="nav-item"><a class="nav-link" href="cadastroFormularioBootstrap.html">Cadastro</a></li>
+                            
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
 
-<!-- carousel  -->
- 
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Loja Web Template</h2>
+                            <div class="line-dec">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Libero temporibus quis, eius nemo omnis nostrum. 
+                                    Laboriosam aliquam praesentium minima non, porro in, 
+                                    voluptatum minus expedita distinctio doloremque nostrum obcaecati vero!
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- carousel  -->
+    
     <div class="container">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" >
-                    <img src="../projetoModulo15Bootstrap/imagensProjMod15/pexels-nao-triponez-792199.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="carousellabel">Exemplo do primeiro modelo</h5>
-                            <p class="carouseltext">Exemplo do primerio modelo</p>
-                        </div>
+                    <img src="../modulo15Bootstrap/imagensProjMod15/pexels-nao-triponez-792199.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousellabel">Exemplo do primeiro modelo</h5>
+                        <p class="carouseltext">Exemplo do primerio modelo</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../projetoModulo15Bootstrap/imagensProjMod15/pexels-tuur-tisseghem-812264.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="carousellabel">Exemplo do segundo modelo</h5>
-                            <p class="carouseltext">Exemplo do segundo modelo</p>
-                        </div>
+                    <img src="../modulo15Bootstrap/imagensProjMod15/pexels-tuur-tisseghem-812264.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousellabel">Exemplo do segundo modelo</h5>
+                        <p class="carouseltext">Exemplo do segundo modelo</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../projetoModulo15Bootstrap/imagensProjMod15/pexels-xxss-is-back-777001.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="carousellabel">Exemplo do terceiro modelo</h5>
-                            <p class="carouseltext">Exemplo do terceiro modelo</p>
-                        </div>
+                    <img src="../modulo15Bootstrap/imagensProjMod15/pexels-xxss-is-back-777001.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousellabel">Exemplo do terceiro modelo</h5>
+                        <p class="carouseltext">Exemplo do terceiro modelo</p>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
-
-<!-- featured items -->
-
+    
+    <!-- featured items -->
+    
     <div id="featured" class="featured-item">
         <div class="container">
             <div class="row">
@@ -105,55 +124,97 @@
                     </div>
                     
                     
-                        <div class="featured-item">
-                            <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 1">
-                            <h4>Produto 1</h4>
-                            <h6>R$ 200</h6>
-                            <a href="#">Comprar</a>
-                        </div>
+                    <div class="featured-item">
+                        <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 1">
+                        <h4>Produto 1</h4>
+                        <h6>R$ 200</h6>
+                        <a href="#">Comprar</a>
+                    </div>
                     
-                        <div class="featured-item">
-                            <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 2">
-                            <h4>Produto 2</h4>
-                            <h6>R$ 500</h6>
-                            <a href="#">Comprar</a>
-                        </div>
+                    <div class="featured-item">
+                        <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 2">
+                        <h4>Produto 2</h4>
+                        <h6>R$ 500</h6>
+                        <a href="#">Comprar</a>
+                    </div>
                     
-                        <div class="featured-item">
-                            <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 3">
-                            <h4>Produto 3</h4>
-                            <h6>R$ 800</h6>
-                            <a href="#">Comprar</a>
-                        </div>
+                    <div class="featured-item">
+                        <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 3">
+                        <h4>Produto 3</h4>
+                        <h6>R$ 800</h6>
+                        <a href="#">Comprar</a>
+                    </div>
                     
-                        <div class="featured-item">
-                            <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 4">
-                            <h4>Produto 4</h4>
-                            <h6>R$ 1000</h6>
-                            <a href="#">Comprar</a>
-                        </div>
-
+                    <div class="featured-item">
+                        <img src="../Bootstrap/images/pexels-nao-triponez-792199.jpg" alt="Item 4">
+                        <h4>Produto 4</h4>
+                        <h6>R$ 1000</h6>
+                        <a href="#">Comprar</a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
-
-<footer>Desenvolvido por João P. Avelãs</footer>
+    
+<div class="container">
+    <div class="footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="../modulo16jQuery/WebLojaLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a class="footerLink" href="#">Home</a></li>
+                            <li><a class="footerLink" href="#">Help</a></li>
+                            <li><a class="footerLink" href="#">Privacy Policy</a></li>
+                            <li><a class="footerLink" href="#">How It Works ?</a></li>
+                            <li><a class="footerLink" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+    </div>
+    
+        <div class="sub-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p id="footerCopyright">WebStore &copy; Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    
 
 <!-- scripts -->
-
+    
     <script src="jquery-3.6.0.js"></script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="jQueryCustom.js"></script>
     <script>
         var myCarousel = document.querySelector('#carouselExampleFade')
         var carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 3000,
-        wrap: false
+            interval: 3000,
+            wrap: false
         })
     </script> 
-
     
-
+    
+    
 </body>
 </html>
