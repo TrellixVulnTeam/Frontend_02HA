@@ -31,7 +31,7 @@
                             
                             <object type="image/svg+xml" id="primerIcon" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/home.svg"></object>
                             <li class="nav-item">
-                                <a class="nav-link active" href="indexModulo15.html">
+                                <a class="nav-link active" href="index_jQuery.html">
                                     Home
                                 </a>
                             </li>
@@ -198,21 +198,26 @@
             
             <div id="contato" class="visually-hidden">
                 <form action="post" class="form">
-                    <div class="mb-3">
-                        
+
+                    <div class="mb-3">                       
                         <label for="nome" class="form-label"></label>
-                        <input type="text" name="nome" id="nome" class="form-control" placeholder="Aqui seu nome completo" aria-describedby="helpNome">
-                        <small id="helpNome" class="text-muted">Por favor digite um nome válido</small>
-                        
+                        <input type="text" name="nome" id="nome" class="form-control" placeholder="Aqui seu nome completo *" aria-describedby="helpNome">
+                        <small id="helpNome" class="text-muted">Campo obrigatório</small>
+                    </div> 
+
+                    <div class="mb-3">
                         <label for="email" class="form-label"></label>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Aqui seu email " aria-describedby="helpEmail">
-                        <small id="helpEmail" class="text-muted">Por favor digite um Email válido</small>
-                        
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Aqui seu email *" aria-describedby="helpEmail">
+                        <small id="helpEmail" class="text-muted">Campo obrigatório</small>
                     </div>
+
+                    <br>
+                    <button type="submit" id="modalSubmit" class="btn btn-primary">Submit</button>
+                    
                 </form>
             </div>
 
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            
             
             <!-- Sobre -->
             
@@ -272,7 +277,9 @@
             <script src="jquery-3.6.0.js"></script>
             <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
             <script src="jQueryCustom.js"></script>
-            <script>
+            
+            <!-- Script do tempo do carousel -->
+            <script>    
                 var myCarousel = document.querySelector('#carouselExampleFade')
                 var carousel = new bootstrap.Carousel(myCarousel, {
                     interval: 3000,

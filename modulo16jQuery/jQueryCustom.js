@@ -39,7 +39,7 @@ $ ('.featured-item:first h4').css({
 */ 
 
 // $ ('.featured-item:first h4').click( function(){
-    
+
 //     $(this).css({
 //         'color'        : '#f00',
 //         'background'   : '#ff0',
@@ -105,23 +105,62 @@ $ ('.featured-item').hover(
                         })
                     }
                 });
-
-
-            /*
-            * Ouvinte de eventos /Modal /nav-modal-open
-            */
+                
+                
+                /*
+                * Ouvinte de eventos /Modal /nav-modal-open
+                */
                 $('.nav-modal-open').on('click', function(e){
                     e.preventDefault();
-
+                    
                     let elem=$(this).attr('rel')
-
+                    
                     $('.modal-body').html($('#'+elem).html())               //criando seletor dinamico a partir de variavel; para pegar o html dentro da div
                     $('.modal-header .modal-title').html($(this).text())
-
+                    
                     let myModal = new bootstrap.Modal($('#modalId')) 
-
+                    
                     myModal.show()
-
-
-
                 })
+                
+                /*
+                *   Event Listener
+                */
+
+                                function validate( elem){
+                    if(elem. val() == ' ') {
+                        console.log( 'Campo do' + elem.attr('name') + 'vazio')
+                        elem.addClass('invalid') 
+                        return false
+
+                    } else {
+                        elem.removeClass('invalid')
+                    }
+                }
+
+                $('body').on('submit', '.modal-body .form', function(e){
+                    e.preventDefault( ) //previne que o formulario seja enviado sem passar pela função || email. val() == ' '
+                    
+                    const inputName = $('#nome')
+                    const inputEmail = $('#email')
+
+                    validate(inputName)
+                    validate(inputEmail)
+                    
+                    if (inputEmail.hasClass('invalid') || inputName.hasClass('invalid')){
+                        console.log('verificar campo origatorio')
+                        return false 
+                    } else {
+                        $(this).submit()
+                        
+                    }
+                })
+                
+                $('body').on('blur', '#nome', function(){
+                    validate ($(this))
+                })
+                
+                $('body').on('blur', '#email', function(){
+                    validate ($(this))                                          
+                })
+                
