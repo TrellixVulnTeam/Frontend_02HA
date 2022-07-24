@@ -29,4 +29,7 @@
 ## https://w3schools.com/jquery/
 - *Mais completo*   
 
-## https://jquery.com  
+## https://jquery.com   
+
+### https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html   
+

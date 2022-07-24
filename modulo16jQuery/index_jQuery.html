@@ -211,6 +211,18 @@
                         <small id="helpEmail" class="text-muted">Campo obrigatório</small>
                     </div>
 
+                    <div class="mb-3">
+                        <label for="cep" class="form-label"></label>
+                        <input type="text" name="cep" id="cep" class="form-control" placeholder="Aqui seu CEP *" aria-describedby="helpCEP">
+                        <small id="helpCEP" class="text-muted">Campo obrigatório</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label"></label>
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Aqui um telefone para contato *" aria-describedby="helpPhone">
+                        <small id="helpPhone" class="text-muted">Campo obrigatório</small>
+                    </div>
+
                     <br>
                     <button type="submit" id="modalSubmit" class="btn btn-primary">Submit</button>
                     
@@ -272,10 +284,12 @@
                 </div>
             </div>
             
-            <!-- scripts -->
-            
+            <!-- Bibliotecas -->
             <script src="jquery-3.6.0.js"></script>
             <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+            <script src="jQueryMask/jquery.mask.min.js"></script>
+
+            <!-- Script Customizados -->
             <script src="jQueryCustom.js"></script>
             
             <!-- Script do tempo do carousel -->
