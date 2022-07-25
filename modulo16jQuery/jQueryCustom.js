@@ -79,6 +79,7 @@ $ ('.featured-item').hover(
                     
                     if (inputEmail.hasClass('invalid') || inputName.hasClass('invalid')){
                         console.log('verificar campo origatorio')
+                        
                         return false 
                     } else {
                         $(this).submit()
@@ -94,11 +95,18 @@ $ ('.featured-item').hover(
                     validate ($(this))                                          
                 })
 
-                $(document).ready(function(){
-                    $('#date').mask('00/00/0000');
-                    $('#time').mask('00:00:00');
-                    $('#cep').mask('00000-000');
-                    $('#phone').mask('0000-0000');
-                    $('#cpf').mask('000.000.000-00', {reverse: true});
+                $('body').on('blur', '#cep', function(){
+                    // validate ($(this))                                          
+                    $(this).mask('00000-000');
                 })
+                $('body').on('blur', '#phone', function(){
+                    validate ($(this))                                          
+                    $(this).mask('00000-0000');
+                })
+
+                // $(document).ready(function(){
+                //      $('#date').mask('00/00/0000');
+                //      $('#time').mask('00:00:00');
+                //      $('#cpf').mask('000.000.000-00', {reverse: true});
+                // })
                 
