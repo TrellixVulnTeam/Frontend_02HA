@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.2.0",
-    "jquery": "^3.6.0"
-  }
+  "author": "JOAO PEDRO AVELAS",
+  "license": "ISC"
 }
