@@ -6,8 +6,13 @@ const uglify = require ('gulp-uglify')
 const image = require('gulp-imagemin')
 
 function tarefasCSS(cb) {
-    return gulp.src('./src/**/*.css')           // o * serve pra que pegue todo e qualquer arquivo com .css
-               .pipe(concat ('libs.css'))       // função .pipe alinhada depois do ()
+    return gulp.src([
+        './src/**/*.css',
+        './src/CSS_Simple_JQuery.css',
+
+])                                              
+                                                // o * serve pra que pegue todo e qualquer arquivo com .css
+               .pipe(concat ('styles.css'))     // função .pipe alinhada depois do ()
                .pipe(cssmin ())                 // primeiro concatena os arquivos; depois pega os arquivos concatenados
                .pipe(rename({suffix: '.min'}))  // minifica com o cssmin e depois de minificados
                .pipe(gulp.dest('./dist/css'))   // renomeia, nesse caso, adicionando o sufixo .min
@@ -16,7 +21,13 @@ function tarefasCSS(cb) {
 }
 
 function tarefasJS( ){
-    return gulp.src('./src/**/*.js')
+    return gulp.src([
+        './src/**/*.js',
+        './jQuery/jqueryui-3.6.0.js',
+        './src/bootstrap-5.0.2-dist/js/bootstrap.js',
+        './dist/js/libs.min.js',
+
+    ])
                .pipe(concat('libs.js'))
                .pipe(uglify())
                .pipe(rename({ suffix: '.min'})) // libs.min.js
