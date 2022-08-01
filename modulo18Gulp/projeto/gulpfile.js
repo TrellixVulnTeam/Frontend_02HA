@@ -25,7 +25,7 @@ function tarefasJS( ){
 
 function tarefasImagem(){
     
-    return gulp.src('./src/images/*')
+    return gulp.src('./gulpImages/*')
         .pipe(image({
             pngquant: true,
             optipng: false,
