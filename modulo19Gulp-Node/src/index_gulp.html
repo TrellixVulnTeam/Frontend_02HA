@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>gulp - WebLoja</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./css/libs.min.css">
+    <link rel="stylesheet" href="./css/CSS_Simple_JQuery.css">
+    
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    
+    <!-- titulo & logo -->
+    
+    <header>
+        <div id="titulo" class="container">
+            <img id="WebLogoLoja" src="dist/images/WebLojaLogo.png" alt="WebLoja">
+            
+            <!-- nav -->
+            
+            <nav>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            
+                            <object type="image/svg+xml" id="primerIcon" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/home.svg"></object>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index_gulp.html">
+                                    Home
+                                </a>
+                            </li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/package.svg"></object>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produtos" >
+                                    Produtos
+                                </a>
+                            </li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/book-open.svg"></object>
+                            <li class="nav-item">
+                                <a class="nav-link nav-modal-open" href="#sobre" rel="sobre">
+                                    Sobre
+                                </a>
+                            </li>
+                            
+                            <object type="image/svg+xml" data="file:///C:/Users/User/Desktop/Frontend/Estilos/FeatherIcons/phone.svg"></object>
+                            <li class="nav-item">
+                                <a class="nav-link nav-modal-open" href="#contato" rel="contato">
+                                    Contato
+                                </a>
+                            </li>                      
+                            
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>           
+    </header>
+    
+    <!-- banner -->
+    
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2> WebLoja&copy; Banner</h2>
+                        <div class="line-dec">
+                            <p>
+                                <b>Este <i>Lorem</i> está sendo usado como exemplo.</b><br>
+                                <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Libero temporibus quis, eius nemo omnis nostrum. 
+                                    Laboriosam aliquam praesentium minima non, porro in, 
+                                    voluptatum minus expedita distinctio doloremque nostrum obcaecati vero!</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    
+        
+        <!-- featured items -->
+        
+        <div id="featured" class="featured-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading">
+                            <div class="line-dec">
+                                <h1>Featured Items</h1>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="featured-item">
+                            <img src="/images/pexels-xxss-is-back-777001.jpg" alt="Item 1">
+                            <h4>Produto 1 <i>(imagen meramente ilustrativa)</i></h4>
+                            <h6>R$ 200</h6>
+                            <a href="#">Comprar</a>
+                        </div>
+                        
+                        <div class="featured-item">
+                            <img src="/images/pexels-xxss-is-back-777001.jpg" alt="Item 2">
+                            <h4>Produto 2 <i>(imagen meramente ilustrativa)</i></h4>
+                            <h6>R$ 500</h6>
+                            <a href="#">Comprar</a>
+                        </div>
+                        
+                        <div class="featured-item">
+                            <img src="/images/pexels-xxss-is-back-777001.jpg" alt="Item 3">
+                            <h4>Produto 3 <i>(imagen meramente ilustrativa)</i></h4>
+                            <h6>R$ 800</h6>
+                            <a href="#">Comprar</a>
+                        </div>
+                        
+                        <div class="featured-item">
+                            <img src="/images/pexels-xxss-is-back-777001.jpg" alt="Item 4">
+                            <h4>Produto 4 <i>(imagen meramente ilustrativa)</i></h4>
+                            <h6>R$ 1000</h6>
+                            <a href="#">Comprar</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Modal -->
+        
+        <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Formulario para contato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contato -->
+        
+        <div id="contato" class="visually-hidden">
+            <form action="post" class="form">
+                
+                <div class="mb-3">                       
+                    <label for="nome" class="form-label"></label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Aqui seu nome completo *" aria-describedby="helpNome" required >
+                    <small id="helpNome" class="text-muted">Campo obrigatório</small>
+                </div> 
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label"></label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Aqui seu email *" aria-describedby="helpEmail" required >
+                    <small id="helpEmail" class="text-muted">Campo obrigatório</small>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="phone" class="form-label"></label>
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Aqui um telefone para contato *" aria-describedby="helpPhone" required >
+                    <small id="helpPhone" class="text-muted">Campo obrigatório</small>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="cep" class="form-label"></label>
+                    <input type="text" name="cep" id="cep" class="form-control" placeholder="Aqui seu CEP" aria-describedby="helpCEP" >
+                    <small id="helpCEP" class="text-muted"></small>
+                </div>
+                
+                <br>
+                <button type="submit" id="modalSubmit" class="btn btn-primary">Submit</button>
+                
+            </form>
+        </div>
+        
+        
+        
+        <!-- Sobre -->
+        
+        <div id="sobre" class="visually-hidden">
+            <p>
+                Este é um pequeno projeto usado não só como exercício, mas como exemplo e tambem com objetivo de ser adicionado ao <i>portfolio.</i>
+            </p>
+        </div>
+        
+        <!-- Footer -->
+        
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo">
+                            <img id="WebLogoLoja" src="dist/images/WebLojaLogo.png" alt="WebLoja">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a class="footerLink" href="#">Home</a></li>
+                                <li><a class="footerLink" href="#">Help</a></li>
+                                <li><a class="footerLink" href="#">Privacy Policy</a></li>
+                                <li><a class="footerLink" href="#">How It Works ?</a></li>
+                                <li><a class="footerLink" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sub-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-text">
+                            <p id="footerCopyright">WebLoja &copy; Todos os direitos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bibliotecas -->
+        <script src="./jQuery/jqueryui-3.6.0.js"></script>
+        <script src="./src/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+        <script src="./jQuery/jquery.mask.js"></script>
+        
+        <!-- Script Customizados -->
+        <script src="./dist/js/libs.min.js"></script>  
+        
+    </body>
+    </html>
