@@ -35,4 +35,11 @@
 
 - NPM: *Node packet manager*
 - Usa node.js
-- Permite configuaração rapida e facil de ambiente de plguins Node, importando os plugins necessários.
+- Permite configuaração rapida e facil de ambiente de plguins Node, importando os plugins necessários.   
+
+### Babel   
+
+#### babeljs.io   
+
+- Compilador de JS
+- *https://www.npmjs.com/package/gulp-babel*
