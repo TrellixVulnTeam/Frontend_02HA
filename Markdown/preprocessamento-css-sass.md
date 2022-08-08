@@ -36,7 +36,13 @@
 
 ### Todos são alterações/modificações do CSS; instalado pelo npm   
 
-
 #### Identação/Hierarquia   
 
 - Estrutura os componentes, evitando sobreposição
+- Segue regras parecidas a da herança de código   
+
+### Partials   
+
+- Modularização de código em pequenos *snippets*
+- *snippets* são *'pedaços'* de código que podem ser re-usados em projetos diferentes 
+- 
