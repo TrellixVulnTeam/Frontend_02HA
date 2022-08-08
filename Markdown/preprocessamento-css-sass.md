@@ -35,3 +35,8 @@
 - *https://postcss.org*
 
 ### Todos são alterações/modificações do CSS; instalado pelo npm   
+
+
+#### Identação/Hierarquia   
+
+- Estrutura os componentes, evitando sobreposição
