@@ -1,5 +1,5 @@
 .destack {
-    background-color: $bg-color;
+    background-color: $color-02;
     padding: $space-default;
     h1 {
         color: $color-03;
@@ -20,7 +20,7 @@
     }
     p {
         font-size: $font-normal;
-        color: $color-01;
+        color: $color-default;
         padding: 2rem 0;
         width: 100%;
     }

@@ -32,18 +32,22 @@ section {
 }
 
 img {
+    border-left: solid;
+    border-bottom: solid;
+    border-color: $color-04  ;
+    border-radius: 5%;
     width: 100%;
     height: auto;
 }
 
 body {
-    font-family: $font-family-default;
+    font-family: 'Open Sans', sans-serif;
     font-size: $font-small;
-    color: $color-default;
+    background-color: $bg-color;
 }
 
 p {
-    color: $color-01;
+    color: $color-default;
     font-size: $font-normal;
     margin-bottom: $mb;
     text-align: $align;
@@ -51,22 +55,25 @@ p {
 
 h1 {
     color: $color-01;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: $font-big;
     margin-top: $mt-02;
 }
 
 h2 {
-    color: $color-02;
+    color: $color-default;
     font-size: $font-medium;
 }
 
 h3 {
-    color: $color-03;
+    color: $color-01;
     font-size: $font-normal;
 }
 
-header,
+header  {
+    background-color: $bg-color;
+}
+
 footer {
-    background-color: $bg-color
+    background-color: $color-01
 }
