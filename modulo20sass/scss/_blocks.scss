@@ -1,12 +1,24 @@
+/*
+    BEM Css - Block Element Modifier
+    - design pattern / padrão do projeto
+
+    por exemplo: .perifericos__title
+                 .perifericos__list
+                 .perifericos__item
+                 .perifericos__title
+
+
+*/
+
 .blocks {
 
     padding: 3rem 0;
 
-    h2 {
+    &__title {
         color: $color-01;
     }
 
-    ul {
+    &__list {
         list-style-type: none;
         font-size: $font-small;
         display: block;
@@ -17,7 +29,7 @@
         width: 100%;
     }
 
-    li {
+    &__item {
         color: $color-02;
         display: block;
         margin: $space-default auto;
@@ -26,29 +38,28 @@
 
         @media (max-width: $tablet) {
               width: calc(99% - 30px);
+        }    
+    }
+    &__img-container {
+        display: block;
+        height: 15rem;
+        overflow: hidden;
+        width: 100%;
+        @media (max-width: $tablet){
+            height: 20rem ;
         }
-        
-        .img-container {
-            display: block;
-            height: 15rem;
-            overflow: hidden;
-            width: 100%;
-            @media (max-width: $tablet){
-                height: 20rem ;
-            }
-        }
+    }
 
-        a {
-            background-color: $color-01;
-            border-radius: 5px;
-            color: white;
-            display: block;
-            font-size: $font-medium;
-            margin: $mt-02 auto $mb;
-            padding: 4px 8px;
-            text-align: center;
-            text-decoration: none;
-        }
+    &__button {
+        background-color: $color-01;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        font-size: $font-medium;
+        margin: $mt-02 auto $mb;
+        padding: 4px 8px;
+        text-align: center;
+        text-decoration: none;
     }
 
 }
