@@ -1,4 +1,4 @@
-@use 'sass:math'; 
+// @use 'sass:math'; 
 // importa a biblioteca de matematica do sass
 
 * {
@@ -16,7 +16,6 @@ p {
     display: block;
 }
 
-article,
 header,
 section,
 footer {
@@ -32,12 +31,13 @@ section {
 
 .container {
     margin: 0 auto;
-    max-width: math.div(1200, 1400) * 100%;
-        
-        @media (max-width:1199px){
-            max-width: math.div(1000, 1200) * 100%;
-}}
+    max-width: 1200px;
+}
 
+// @media (max-width:1199px){
+//     .container{
+//     max-width: math.div(300, vw) * 100%;
+// }}
 
 img {
     border-left: solid;
