@@ -15,3 +15,24 @@ npm init -y
 npm install --save-dev webpack webpack-cli
 ```   
 
+### Trabalhando com HTML   
+
+- Necessita um plugin para ampliar a possibilidade de uso:   
+
+```
+npm install --save-dev html-webpack-plugin
+```
+
+### Adicionando CSS   
+
+- Para trabalhar com estilo tambem precisa de algumas extensões  
+
+1. node-sass: compilador sass para node
+2. sass-loader: carrega para o webpack compilar 
+3. style-loader: injeta estilos na árvore de objetos (DOM)
+4. css-loader: interpreta diretivas do CSS (import,..)
+5. extract: extrai css do JS  
+
+```
+npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin
+```
