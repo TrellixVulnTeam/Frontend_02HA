@@ -35,4 +35,19 @@ npm install --save-dev html-webpack-plugin
 
 ```
 npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin
+```   
+
+### Compatibilidade com Babel JS    
+
+- Relembrado: Babel transforma codigo JS para ser mais compatível com navegadores antigos
 ```
+npm install --save-dev @babel/core @babel/preset-env babel-loader
+```   
+
+### Trabalhando com imagens    
+
+- Adicionar file loader
+```
+npm install --save-dev file-loader
+```
+

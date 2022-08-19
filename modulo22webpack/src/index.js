@@ -1,4 +1,5 @@
 import './style.scss'
+import img from './background_01.png'
 
 function titleComponent ( ){
     const elemH1 = document.createElement('h1') 
@@ -7,4 +8,11 @@ function titleComponent ( ){
     return elemH1
 }
 
+function imageComponent(){
+    const elemImg = new Image(2037,2090)
+    elemImg.src = img
+    return elemImg
+}
+
 document.body.appendChild(titleComponent())
+document.body.appendChild(imageComponent())
