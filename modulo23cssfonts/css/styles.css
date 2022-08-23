@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 div,
@@ -34,10 +35,16 @@ section {
 img {
   border-left: solid;
   border-bottom: solid;
-  border-color: rgb(55, 84, 177);
+  border-color: rgb(167, 205, 255);
   border-radius: 5%;
   width: 100%;
   height: auto;
+  box-shadow: 0px 0px 2px .3px black;
+}
+
+img:hover, a:hover {
+  box-shadow: 0px 0px 5px 1px rgb(106, 9, 151);
+  
 }
 
 body {
@@ -49,8 +56,10 @@ body {
 p {
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: .5%;
   text-align: left;
+  font-style: italic;
+  font-weight: 500;
 }
 
 h1 {
@@ -62,7 +71,8 @@ h1 {
 
 h2 {
   color: rgb(0, 0, 0);
-  font-size: 2.2rem;
+  font-size: 3rem;
+
 }
 
 h3 {
@@ -74,9 +84,7 @@ header {
   background-color: rgb(255, 255, 255);
 }
 
-footer {
-  background-color: rgb(192, 192, 192);
-}
+
 
 .blocks {
   padding: 3rem 0;
@@ -114,6 +122,7 @@ footer {
   padding: 4px 8px;
   text-align: center;
   text-decoration: none;
+
 }
 
 .periferico h2 {
@@ -127,16 +136,17 @@ footer {
 }
 
 .destack {
-  background-color: rgb(164, 223, 250);
+  background-color: rgb(51, 171, 226);
   padding: 1.5rem;
 }
 .destack h1 {
-  color: rgb(69, 120, 143);
+  color: rgb(27, 39, 44);
   float: left;
   font-size: 3rem;
   margin-top: 0;
 }
 .destack h2 {
+  color: rgb(255, 217, 0);
   float: left;
   font-size: 1.2rem;
   margin-left: 1.5rem;
@@ -153,5 +163,88 @@ footer {
   padding: 2rem 0;
   width: 100%;
 }
+
+/* .nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0% 1% 0% 0.1%;
+} 
+
+#primerIcon {
+  margin-right: -.5%;
+} */
+
+/* footer style */
+
+footer {
+  font-size: 1.6em;
+  text-decoration: none;
+  background-color: rgb(192, 192, 192);
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+}
+footer ul li {
+	list-style: none;
+	display: inline-block;
+}
+footer .footer-menu {
+	margin-bottom: 40px;
+}
+.footer .footer-menu ul li {
+	margin: 0px 15px;
+}
+.footer .footer-menu a {
+	font-size: 13px;
+	color: #7a7a7a;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+.footer .footer-menu a:hover {
+	color: #3a8bcd;
+	text-decoration: none;
+}
+
+.footerLink a:hover {
+	background-color: #286292;
+}
+
+footer li {
+  text-decoration: underline;
+  margin: 0% 1% 0% 0%;
+}
+
+/* modal */
+
+.form-control {
+  padding: 1rem;
+  font-size: 1em;
+}
+
+.modal-title {
+  font-size: 1em;
+}
+
+.btn {
+  padding: 1rem ;
+  font-size: 1em;
+}
+
 
 /*# sourceMappingURL=styles.css.map */
