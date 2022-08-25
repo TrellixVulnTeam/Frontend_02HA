@@ -1,0 +1,12 @@
+.perifericos {
+    &__title {
+        color: $color-04;
+    }
+    &__item {
+        color: $color-04;
+
+        &__button {
+            background-color: $color-04;
+        }
+    }
+}

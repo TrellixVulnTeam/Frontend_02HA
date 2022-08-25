@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilo -->
+    <link rel="stylesheet" href=".//bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>WebLoja</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2>WebLoja Gamer</h2>
+            <p>A <b>melhor</b> para todas suas necessidades!</p>
+        </div>
+        
+    </header>
+    <section>
+        <div class="destack">
+            
+            <div class="container">
+                <h1 class="destack__title">Controles</h1>
+                <h2 class="destack__subtitle">Destaque !!</h2>
+                <br>
+                <img class="destack__image" src="./images/controle_pexels.jpg" alt="Foto controle ps4">
+                <p class="destack__description">Controle DualShock 4&copy; , sem fio, recarregável, com gatilhos analógicos refinados, sensor de movimentos, conector de headset e alto-falante embutido. </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="blocks perifericos">
+                <h2 class="perifericos__title">Ver Itens</h2>
+                <ul class="perifericos__list">
+                    
+                    <li class="perifericos__item perifericos__item--destack">
+                        <a class="perifericos__button" href="#01">
+                            <img src="./images/controle2_pexels.jpg" alt="Foto controle Xbox">Ver mais
+                        </a>
+                    </li>
+                    
+                    <li class="perifericos__item" >
+                        <a class="perifericos__button" href="#02">
+                            <img src="./images/teclado_pexels.jpg" alt="Foto Teclado RGB">Ver mais
+                        </a>
+                    </li>
+                    
+                    <li class="perifericos__item" >
+                        <a href="#03">
+                            <img src="./images/mouse_pexels.jpg" alt="Foto Mouse RGB">Ver mais
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        
+        <div class="footer-menu">
+            <ul>
+                <li><a class="footerLink" href="#">Voltar ao topo</a></li>
+                <li><a class="footerLink" href="#">Produtos</a></li>
+                <li><a class="footerLink" href="#">Sobre</a></li>
+                <li class="nav-item">
+                    <a class="nav-link nav-modal-open" href="#contato" rel="contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Modal -->
+        
+        <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Formulario para contato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contato -->
+        
+        <div id="contato" class="visually-hidden">
+            <form action="post" class="form">
+                
+                <div class="mb-3">                       
+                    <label for="nome" class="form-label"></label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Aqui seu nome completo *" aria-describedby="helpNome" required >
+                    <small id="helpNome" class="text-muted">Campo obrigatório</small>
+                </div> 
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label"></label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Aqui seu email *" aria-describedby="helpEmail" required >
+                    <small id="helpEmail" class="text-muted">Campo obrigatório</small>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="phone" class="form-label"></label>
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Aqui um telefone para contato *" aria-describedby="helpPhone" required >
+                    <small id="helpPhone" class="text-muted">Campo obrigatório</small>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="cep" class="form-label"></label>
+                    <input type="text" name="cep" id="cep" class="form-control" placeholder="Aqui seu CEP" aria-describedby="helpCEP" >
+                    <small id="helpCEP" class="text-muted"></small>
+                </div>
+                
+                <br>
+                <button type="submit" id="modalSubmit" class="btn btn-primary">Submit</button>
+                
+            </form>
+        </div>
+        
+        <div class="container">
+            <p> &copy; Desenvolvido por João P. Avelãs</p>
+            
+            <!-- Bibliotecas -->
+            <script src="./jquery/jquery-3.6.0.js"></script>
+            <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+            <script src="./jquery/jquery.mask.min.js"></script>
+            
+            <!-- Script Customizados -->
+            <script src="./jquery/jQueryCustom.js"></script>
+        </div>
+    </footer>
+</body>
+</html>

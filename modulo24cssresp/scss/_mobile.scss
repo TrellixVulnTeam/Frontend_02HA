@@ -1,0 +1,28 @@
+
+/*Mobile*/
+.blocks ul {
+        @media (max-width: 960px){
+            list-style-type: none;
+            font-size: 1.2rem;
+            display: grid;
+            height: 30%; 
+            width: 100%;
+            padding: 1rem 0;
+        }
+    }
+
+    .destack img {
+        @media (max-width: 960px){
+            width:100%;
+        }
+    }
+    h2 {
+        @media (max-width: 960px){
+            font-size: 4.5rem;
+        }
+    }
+    .block li {
+        @media (max-width: 960px){
+            width: 80%;
+        }
+    }
