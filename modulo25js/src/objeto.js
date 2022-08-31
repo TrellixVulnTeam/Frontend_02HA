@@ -2,26 +2,26 @@ const user01 = new Object ( )
     user01.name = "Aaa",
     user01.idade = "20",
     user01.peso = "80",
-    user01.altura = "1.70"
-    user01.cor = "azul"
-    user01.operatingSystem = "windows"
+    user01.altura = "1.70",
+    user01.cor = "azul",
+    user01.operatingSystem = "windows",
     user01.cpf = "12345-678"
 
 const user02 = new Object ( )
     user02.name = "Bbb",
     user02.idade = "22",
     user02.peso = "80",
-    user02.altura = "1.80"
-    user02.cor = "verde"
-    user02.operatingSystem = "mac"
+    user02.altura = "1.80",
+    user02.cor = "verde",
+    user02.operatingSystem = "mac",
     user02.cpf = "987-65432"
 
 const car01 = new Object ( )
-    car01["marca"] = "fiat"
+    car01["marca"] = "fiat",
     car01.cor = "preto"
 
 const car02 = new Object ( )
-    car02["marca"] = "ford"
+    car02["marca"] = "ford",
     car02.cor = "branco"
 
 // console.log(Object.keys(user01))
