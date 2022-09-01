@@ -1,5 +1,5 @@
 class Movimento { 
-    constructor(banco = 'padrao', nome ='TED', saldo = 0 ) {
+    constructor(banco = 'padrao', nome ='', saldo = 0 ) {
         this.banco = banco,
         this.nome = nome,
         this.saldo = saldo
@@ -12,7 +12,7 @@ class Registro  {
         this.dia = dia,
         this.mes = mes,
         this.ano = ano,
-        this.Movimento = []
+        this.movimento = []
     }
 
     novoMovimento(... movimento) {
@@ -23,17 +23,24 @@ class Registro  {
 
     resumo( ){ 
         let valorAtualizado = 0
+        let tipo = ''
+        // const regex = new RegExp('x', 'gi')
+
         this.movimento.forEach(lancamento => {
-            valorAtualizado += lancamento.valor
+            // lancamento.banco.replace (/x$/i, 'Y')
+
+            if (!lancamento.nome.match (/imposto/)){ //isso filtra os impostos devido a ! no inicio
+                valorAtualizado += lancamento.saldo
+                tipo += lancamento.nome + ' | '}
         })
-        return valorAtualizado
+        return tipo + valorAtualizado
     }
 }
 
-const m01 = new Movimento('banco AAA','salario', 10000)
-const m02 = new Movimento('banco AAA','comissao', 1000)
-const m03 = new Movimento('banco AAA','imposto', -2000)
+const m01 = new Movimento('banco X','salario', 10000)
+const m02 = new Movimento('banco Y','comissao', 1000)
+const m03 = new Movimento('banco Z','imposto', -2000)
 
 const registro01 = new Registro ( 01,11,2022)
 registro01.novoMovimento(m01, m02, m03)
-console.log (registro01.resumo( ))
+console.log (" saldo atual de: " + registro01.resumo( ))
