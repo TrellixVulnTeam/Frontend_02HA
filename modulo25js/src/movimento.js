@@ -44,3 +44,10 @@ const m03 = new Movimento('banco Z','imposto', -2000)
 const registro01 = new Registro ( 01,11,2022)
 registro01.novoMovimento(m01, m02, m03)
 console.log (" saldo atual de: " + registro01.resumo( ))
+
+const movimentacoesGerais = [m01,m02,m03]
+
+movimentacoesGerais.map ( elemento => 
+    console.log (elemento.banco.length)
+)
+
