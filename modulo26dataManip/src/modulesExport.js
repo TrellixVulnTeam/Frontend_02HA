@@ -10,8 +10,5 @@ export { cores, Animais, getName}
 
 // strict mode - todos exports ficam automaticamente em modo estrito
 
-export default getCars ( ) {
-    
-}
-
+export default getCars ( ) 
 // export default getCars -  só pode 1 export default por arquivo 
