@@ -17,8 +17,8 @@
 
 ## Criar conta
 
-## Clonar projeto
-
+## Clonar projeto   
+- "*git clone https://github.com/cavalcantemmarcelo/simulator.git*"
 ## Commits
 Informacao de alteracao 
  - apos testado todo codigo
