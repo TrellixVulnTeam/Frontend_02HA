@@ -15,35 +15,48 @@ p {
 }
 
 header,
-section,
-footer {
+section {
   display: block;
   margin: 0 auto;
   width: 100%;
-  padding: 4rem 0;
 }
+
+/* #predio3 {
+  bottom: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  animation: vaivolta 2s infinite alternate;
+}
+
+@keyframes vaivolta {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 100px;}
+    50%  {top: 0px; left: 0px;}
+    75%  {top: 0px; left: 100px;}
+    100%  {top: 0px; left: 0px;}
+} */
 
 section {
   padding: 0;
 }
 
 .container {
-
   max-width: 100%;
-  background-color: antiquewhite;
-  padding-left: 30%;
+  background-color: rgb(221, 205, 185);
+  /* border-top: solid brown 1px; */
 }
 
 img {
-
+  
   border-left: solid;
   border-bottom: solid;
   border-color: rgb(167, 205, 255);
   border-radius: 5%;
-  width: 50%;
+  width: 30%;
   height: auto;
   box-shadow: 0px 0px 2px .3px black;
-  margin-top: .5%;
+  margin:1% ; 
 }
 
 img:hover, a:hover {
@@ -57,28 +70,19 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-p {
-  color: rgb(0, 0, 0);
-  font-size: 1.5rem;
-  margin: .5%;
-  text-align: left;
-  font-style: italic;
-  font-weight: 500;
-}
-
 h1 {
-  color: rgb(192, 192, 192);
+  color: rgb(0, 103, 110);
   font-family: "Open Sans", sans-serif;
   font-size: 3rem;
   padding: 1%;
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(196, 238, 255);
   border-bottom: solid 2px rgb(0, 199, 199);
 }
 
 h2 {
   color: rgb(0, 0, 0);
   font-size: 3rem;
-
+  
 }
 
 h3 {
@@ -87,7 +91,7 @@ h3 {
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 229, 205);
 }
 
 
@@ -128,7 +132,7 @@ header {
   padding: 4px 8px;
   text-align: center;
   text-decoration: none;
-
+  
 }
 
 .periferico h2 {
@@ -192,12 +196,12 @@ header {
 /* footer style */
 
 footer {
-  font-size: 1.6em;
-  text-decoration: none;
-  background-color: rgb(192, 192, 192);
-  padding-bottom: 1%;
-  margin-bottom: 1%;
+  background-color: antiquewhite;
+  border-top: solid rgb(150, 133, 107) 2px;
+  font-size: 2em;
+  font-style: italic;
   text-align: center;
+  padding: 1%;
 }
 
 footer p {
@@ -205,32 +209,32 @@ footer p {
 }
 
 footer ul {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 footer ul li {
-	list-style: none;
-	display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 footer .footer-menu {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .footer .footer-menu ul li {
-	margin: 0px 15px;
+  margin: 0px 15px;
 }
 .footer .footer-menu a {
-	font-size: 13px;
-	color: #7a7a7a;
-	text-transform: uppercase;
-	transition: all 0.5s;
+  font-size: 13px;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  transition: all 0.5s;
 }
 .footer .footer-menu a:hover {
-	color: #3a8bcd;
-	text-decoration: none;
+  color: #3a8bcd;
+  text-decoration: none;
 }
 
 .footerLink a:hover {
-	background-color: #286292;
+  background-color: #286292;
 }
 
 footer li {
