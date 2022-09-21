@@ -67,11 +67,11 @@ img:hover, a:hover {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(221, 205, 185);
 }
 
 h1 {
-  color: rgb(0, 103, 110);
+  color: rgb(0, 39, 43);
   font-family: "Open Sans", sans-serif;
   font-size: 3rem;
   padding: 1%;
@@ -80,22 +80,20 @@ h1 {
 }
 
 h2 {
-  color: rgb(0, 0, 0);
-  font-size: 3rem;
-  
+  color: rgb(0, 39, 43);
+  font-size: 4rem;
+  text-align: center;
+  border-top: solid 4px teal;
+}
+
+#videoPlayer {
+  margin-top: 1%;
 }
 
 h3 {
   color: rgb(192, 192, 192);
   font-size: 1.5rem;
 }
-
-header {
-  background-color: rgb(255, 229, 205);
-}
-
-
-
 .blocks {
   padding: 3rem 0;
 }

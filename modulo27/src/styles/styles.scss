@@ -26,3 +26,61 @@ h1 {
     }
 
 }
+
+header {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.predios {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 110%;
+
+    path.predio1{
+        animation: vaivolta 4s ease-in-out infinite alternate;
+
+    }
+    path.predio2{
+        animation: vaivolta 4s ease-in-out infinite alternate;
+
+    }
+    path.predio3{
+        animation: dash1 4s ease-in-out infinite ;
+        stroke-dashoffset: 200;
+        stroke-dasharray: 100;
+        stroke: whitesmoke;
+        stroke-width: 2px;
+    }
+}
+
+@keyframes predio1 {
+    from {
+        transform: translate(-1000px);
+    }
+}
+@keyframes predio2 {
+    from {
+        transform: translate(-1200);
+    }
+}
+@keyframes predio3 {
+    from {
+        transform: translate(-1400px);
+    }
+}
+
+@keyframes dash1 {
+    from {
+        stroke-dasharray: 2000;
+    }
+    to {
+
+    }
+}
+
+@import 'player'
