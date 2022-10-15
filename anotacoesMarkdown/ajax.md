@@ -26,4 +26,13 @@
 cliente <--> HTTP <--> servidor
 ```
 - Pelo HTTP passa tudo que é carregado na pagina de web, de imagens à anuncios.
-- É o mais usado por ser o mais flexível e performático da web.  
+- É o mais usado por ser o mais flexível e performático da web.    
+
+#### GET   
+
+- Usado pra enviar uma solicitação de requisição, ou seja, receber uma informação   
+
+### https://jsonplaceholder.typicode.com/posts   
+
+### https://developoer.mozilla.org/pt-BR/docs/Web/HTTP/Methods    
+

@@ -1,13 +1,20 @@
 
 const url = 'https://api.github.com/users'
 const main = document.getElementById('main')
+let text = ''
 
 function getUser(user) { 
 
-    fetch (`${url}/${user}`)
+    fetch (`${url}/${user}`, {
+        method: 'GET', 
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8'
+        }
+})
     .then((response) => response.json())
     .then((data) => {
-        main.innerHTML = `${data.name} possui ${data.public_repos} repositorios no GitHub como ${data.login}`
+        text += `${data.name} possui ${data.public_repos} repositorios no GitHub como ${data.login}<br>`
+        main.innerHTML = text
     })
     .catch((error) => console.error('Erro: ',error.massage || error))
 }
@@ -15,4 +22,5 @@ function getUser(user) {
 const userInput = document.getElementById('username')
 userInput.addEventListener('focusout', function (event){
     getUser(event.target.value)
-})
+})   
+
