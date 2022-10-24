@@ -49,6 +49,16 @@ cliente <--> HTTP <--> servidor
 - Prevenir vulnerabilidades como SQL Injection.
 - **Tarefa Front-end que pode ser processada pelo backend**    
 
+### SQL - Structured Query Language   
+
+- Linguagem usada para banco de dados, guarda, manipula e busca em bancos de dados
+
 #### SQL Injection   
 
-- ****
+- Técnica de injeção de código SQL que pode causar dano ao banco de dados e uma das técnicas de hackeamento mais comun atualmente.
+- É a colocação de código malicioso em declarações SQL via input em pagina de web; essencialmente **ocorre quando o "usuário" é pedido por um input de informação como userID e o usuário fornece uma declaração SQL que sera executada desconhecidamente pelo banco de dados**   
+
+#### SQL Parameters   
+
+- Parametros SQL para proteção contra injeções, sendo valores adicionados ao código na hora da execução de modo controlado de modo que faz o motor do SQL checar *cada* parametro para garantir que é correto para coluna e é tratado de modo *literal* e não como código SQL a ser executado.
+- Basicamente: **Filtra a informação inserida no campo para que não cause danos.**
