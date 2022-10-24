@@ -6,7 +6,7 @@
 2. Acessar a camera/microfone com *getUserMedia()*
 3. Pedir que o usuário escolha um arquivo com *showOpenFilePicker()*    
 
-### jQeury - https://api.jquery.com/jquery.ajax/
+### jQuery - https://api.jquery.com/jquery.ajax/
 
 #### Req. Assíncrona -  É o recebimento de informação no montante que ela é disponibilizada pelo servidor; ou seja: vai mostrando/liberando conforme for carregando. *(Idealmente ja ir mostrando o que for carregando na pagina.)*
 
@@ -32,7 +32,15 @@ cliente <--> HTTP <--> servidor
 
 - Usado pra enviar uma solicitação de requisição, ou seja, receber uma informação   
 
-### https://jsonplaceholder.typicode.com/posts   
+### https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods para mais informações    
 
-### https://developoer.mozilla.org/pt-BR/docs/Web/HTTP/Methods    
+## APIs    
 
+- [Github Users](https://docs.github.com/en/rest/reference/users)
+- [JsonPlaceholder Posts](https://jsonplaceholder.typicode.com/posts)   
+
+### Valid. Formulário   
+
+- Intuito de garantir preenchimento correto dos campos; validar dados, documentos, num. importantes como CPF/endereço/cartão.
+- Prevenir vulnerabilidades como SQL Injection.
+- **Tarefa Front-end que pode ser processada pelo backend**
