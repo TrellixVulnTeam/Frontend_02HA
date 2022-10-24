@@ -1,16 +1,20 @@
 # AJAX - Asynchronous Javascript and XML; Programação Assíncrona   
 
-- Prog. Assínc. é uma técnica usada para que um programa possa executar uma tarefa potencialmente demorada e permanecer responsivo a outros eventos ou operações ao invés de ter que esperar que a tarefa acabe para iniciar outra. Muitas funções executadas por navegadores são assíncronas por terem a possibilidade de demora, como por exemplo:   
+- Programação Assíncrona é uma técnica usada para que um programa possa executar uma tarefa potencialmente demorada e permanecer responsivo a outros eventos ou operações ao invés de ter que esperar que a tarefa acabe para iniciar outra. Muitas funções executadas por navegadores são assíncronas por terem a possibilidade de demora, como por exemplo:   
 
 1. Fazer uma requisição HTTP usando *fetch()*
 2. Acessar a camera/microfone com *getUserMedia()*
 3. Pedir que o usuário escolha um arquivo com *showOpenFilePicker()*    
 
-### jQuery - https://api.jquery.com/jquery.ajax/
+### [jQuery](https://api.jquery.com/jquery.ajax/)
 
-#### Req. Assíncrona -  É o recebimento de informação no montante que ela é disponibilizada pelo servidor; ou seja: vai mostrando/liberando conforme for carregando. *(Idealmente ja ir mostrando o que for carregando na pagina.)*
+#### Requisição Assíncrona 
 
-### SPA - Single Page Application - Applicativo ou site que interage com o usuário de modo dinamico, reescrevendo a pagina atual com informação so servidor ao invés do modo padrão do browser de carregar uma outra pagina; *basicamente, no SPA a pagina nunca refresca*
+-  É o recebimento de informação no montante que ela é disponibilizada pelo servidor; ou seja: vai mostrando/liberando conforme for carregando. *(Idealmente ja ir mostrando o que for carregando na pagina.)*
+
+### SPA - Single Page Application 
+
+- Applicativo ou site que interage com o usuário de modo dinamico, reescrevendo a pagina atual com informação so servidor ao invés do modo padrão do browser de carregar uma outra pagina; *basicamente, no SPA a pagina nunca refresca*
 
 ### Proxy   
 
@@ -30,9 +34,9 @@ cliente <--> HTTP <--> servidor
 
 #### GET   
 
-- Usado pra enviar uma solicitação de requisição, ou seja, receber uma informação   
+- Usado pra enviar uma solicitação de requisição, ou seja, para receber uma informação.   
 
-### https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods para mais informações    
+### [Para mais documentação](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)    
 
 ## APIs    
 
@@ -43,4 +47,8 @@ cliente <--> HTTP <--> servidor
 
 - Intuito de garantir preenchimento correto dos campos; validar dados, documentos, num. importantes como CPF/endereço/cartão.
 - Prevenir vulnerabilidades como SQL Injection.
-- **Tarefa Front-end que pode ser processada pelo backend**
+- **Tarefa Front-end que pode ser processada pelo backend**    
+
+#### SQL Injection   
+
+- ****
