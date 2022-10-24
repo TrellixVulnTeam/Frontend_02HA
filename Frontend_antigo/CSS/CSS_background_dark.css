@@ -1,0 +1,159 @@
+html {
+	font-family: Arial;
+	margin: 1%;
+	padding: 1%; 
+}
+
+body {
+	background: url(./background_01.png) center no-repeat 
+}
+
+header { 
+	margin: 1%;
+	padding: 1%; 
+	background-color: rgba(54, 27, 27, 0.952);
+	padding: .5em ;
+	border: solid; 
+	border-color: rgb(0, 0, 0); 
+	left: 350px;
+	text-align: center; 
+	font-size: 1.4em;
+	color: rgba(250, 250, 250, 1.0); /*font*/
+	text-shadow: 2px 2px rgba(0, 0, 0, 1.0);
+}
+
+p {
+	padding: .2rem; 
+	margin: .2rem; 
+}
+
+nav {
+	background: rgba(250, 250, 250, 100%);
+	font-size: 1.1em;
+	padding: .5em;
+	margin: 1%;
+
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+h2 {
+	
+    text-decoration: underline;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px rgb(0, 0, 0);
+	text-align: center;
+}
+
+h3 {
+	margin: 1%;
+	text-decoration: underline;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px rgb(0, 0, 0);
+	text-align: left;
+}
+
+
+a:hover {
+	/*margin: .1%;
+	padding: .1%;*/
+    background-color: rgba(58, 40, 99, 0.808);
+    color: rgb(233, 233, 255);
+    text-decoration: underline;
+	
+}
+
+nav {
+	font-family: Arial;
+	border:solid; 
+	border-color: rgba(0, 0, 0, 1.0);
+}
+
+table { 
+	border: .3em solid;	
+	background: rgba(255, 255, 255, 1.0);	
+	width: 100%; 
+	border-collapse: collapse;
+}
+
+table tr {
+	font-family: Arial;
+}
+
+table th, table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid;
+}
+
+table tr td:first-child {	text-align: left;	font-weight: bold;}
+
+table th { 
+	background-color: rgba(50, 50, 200, 1.0);
+	color: rgba(255, 255, 255, 1.0);
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-align: left;
+	text-shadow: 2px 2px rgba(0, 0, 0, 1.0);
+}
+
+footer { 
+	text-align: center; 
+	font-family: Arial;
+	font-weight: bold; 
+    border: rgb(0, 0, 0) solid;
+    background-color: rgb(54, 27, 27, 0.952);
+    padding: 1%;
+    margin: 1%;
+}
+
+.estimada {
+	background: rgba(110, 110, 110, 50%);
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h3 { 
+	font-size: 1.8rem; 
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+	background: rgba(10, 250, 200, 80%);
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+.verde {
+	background: rgba(10, 200, 100, 1.0);
+}
+  
+.navbar {
+	
+	margin: 1%;
+	overflow: hidden;
+	background-color: rgb(124, 19, 19);
+	font-family: Arial;
+	border: solid;
+	border-color: rgb(0, 0, 0);
+  }
+  
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; 
+  }
+
+  
