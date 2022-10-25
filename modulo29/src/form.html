@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilo -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+    <form action="" id="form">
+        <h2>Cadastro</h2>
+        <h5>Os campos com * são obrigatórios</h5>
+        <input type="text" class="not-null" placeholder="NOME COMPLETO*" id="nome" name="nome">
+        <input type="text" class="not-null" placeholder="ENDEREÇO DE EMAIL*" id="email" name="email">
+        <input type="text" class="not-null" placeholder="CPF*" id="cpf" name="cpf">
+        <input type="text" class="not-null" placeholder="CEP*" id="cep" name="cep">
+        <button>Cadastrar</button>
+    </form>
+    <div class="mensagem"></div>
+    <script src="./js/form.js"></script>
+</body>
+</html>

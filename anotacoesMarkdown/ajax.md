@@ -53,7 +53,7 @@ cliente <--> HTTP <--> servidor
 
 - Linguagem usada para banco de dados, guarda, manipula e busca em bancos de dados
 
-#### SQL Injection   
+#### [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)   
 
 - Técnica de injeção de código SQL que pode causar dano ao banco de dados e uma das técnicas de hackeamento mais comun atualmente.
 - É a colocação de código malicioso em declarações SQL via input em pagina de web; essencialmente **ocorre quando o "usuário" é pedido por um input de informação como userID e o usuário fornece uma declaração SQL que sera executada desconhecidamente pelo banco de dados**   
