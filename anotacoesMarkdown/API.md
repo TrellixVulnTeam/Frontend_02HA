@@ -18,9 +18,18 @@
 
 #### WebSocket - Desenvolvimento de API Web moderno que usa objetos JSON para transmitir dados oferencendo dados para comunicação bidimensional entre aplicativos cliente e o servidor e o servidor pode enviar mensagens de retorno a clientes conectados. É mais efficiente que *REST*    
 
-#### REST - Representational state transfer  (*Transferência Representacional de Estado*) - Mais populares e flexíveis encontradas na Web atualmente. O cliente envia solicitações ao servidor como dados. O servidor usa essa entrada do cliente para iniciar funções internas e retorna os dados de saída ao cliente.  
+#### REST - Representational state transfer  (*Transferência Representacional de Estado*) - Mais populares e flexíveis encontradas na Web atualmente. O cliente envia solicitações ao servidor como dados. O servidor usa essa entrada do cliente para iniciar funções internas e retorna os dados de saída ao cliente.   
+
+- Estabelece padrões de comunicação entre fronte-end e back-end 
+- Métodos:
+    1. Get
+    2. Post
+    3. Put
+    4. Delete
 
 ### Exemplos:   
 
+- [Vtex](https://developers.vtex.com/vtex-rest-api/reference/post-product)
+- [Swagger](https://petstore.swagger.io/#/pet/findPetsByStatus)
 - [Github Users](https://docs.github.com/en/rest/reference/users)
 - [JsonPlaceholder Posts](https://jsonplaceholder.typicode.com/posts)   
