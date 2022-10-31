@@ -8,31 +8,27 @@
 
 
 
-## SASS; *CSS with superpower*   
+## [SASS](https://sass-lang.com/) ; *CSS with superpower*   
 
 - Responsável por trazer funcionalidades novas ao CSS, permitindo que programe o CSS de modo mais facil & produtivo.
 - Pode introduzir variáveis E possuir transpilador
-- *https://sass-lang.com/* 
 - ***npm install -g sass*** (node)
 - Mais famoso/usado por ser *(em teoria)* mais *facil*.   
 
-## Stylus; *Expressivo, dinâmico e robusto*   
+## [Stylus](https://stylus-lang.com*) ; *Expressivo, dinâmico e robusto*   
 
 - CSS simplificado; pode omitir { } e ; 
-- Do contrário, funciona parecido com CSS estruturalmente.
-- *https://stylus-lang.com*   
+- Do contrário, funciona parecido com CSS estruturalmente.   
 
-## Less CSS; *É o css, com um pouco a mais*
+## [Less CSS](https://lesscss.org/#); *É o css, com um pouco a mais*
 
 - *Idem*
 - Mais parecido tambem com JS
-- *https://lesscss.org/#*
 - *npm install less --save-dev*    
 
-## PostCSS ; *Ferramenta pra transformar CSS com JS*
+## [PostCSS](https://postcss.org) ; *Ferramenta pra transformar CSS com JS*
 
 - MUITO mais parecido com JS 
-- *https://postcss.org*
 
 ### Todos são alterações/modificações do CSS; instalado pelo npm   
 

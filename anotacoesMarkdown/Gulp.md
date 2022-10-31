@@ -39,7 +39,6 @@
 
 ### Babel   
 
-#### babeljs.io   
+#### [babeljs.io](https://www.npmjs.com/package/gulp-babel)
 
 - Compilador de JS
-- *https://www.npmjs.com/package/gulp-babel*

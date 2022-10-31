@@ -9,7 +9,7 @@
  - Funciona disponibilizando a API *(application programming interface)* , ja tendo rotinas e padrões definidos, trabalhando com metodos e funções montando a arvore de elementos do HTML transformando a pagina em objeto javascript e um de seus recursos são seletores: *(formas de selecionar determinado elemento)* , gerando objetos *(nó/node)*  
 
  - Por exemplo:   
-
+```
                 //< html>  
 
                 //    < head>< /head>   
@@ -18,9 +18,10 @@
 
                 //< /html>     
 
-
+```
  - Ou no caso de um objeto JS:  
 
+```
         objeto = {
             html : {
                 head : {},
@@ -29,6 +30,7 @@
                 },
             }
         }   
+```
 
 ## DOM x JS  
 
@@ -78,5 +80,6 @@ elemente.addEventListener()     <-- *algo que observa o elemento*
 
 ### Referencias:   
 
-- DOM: https://dom.spec.whatwg.org/
-- Tecnologia JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/
+- [DOM](https://dom.spec.whatwg.org/)    
+
+- [Tecnologia JS:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)

@@ -21,6 +21,4 @@
      8.  | ***RIO*** | HOMEN | Cabra | Lobo | Alfafa | *Homen traz cabra*
 
 
- #### 2.JS:Exibir média de 3 numeros com entradas pelo formulário HTML e enviar link no *git* ou *fiddle*
-
- - https://jsfiddle.net/exdtLs7a/1/
+ #### [2.JS:Exibir média de 3 numeros com entradas pelo formulário HTML e enviar link no *git* ou *fiddle*](https://jsfiddle.net/exdtLs7a/1/)

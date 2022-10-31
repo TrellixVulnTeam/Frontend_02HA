@@ -60,9 +60,9 @@
 
 #### Icones  
 
-- Enquanto BS não inclui icones propriamente dito, tem bibliotecas extansivas de icones.
-- *https://fontawesome.com/*
-- *https://feathericons.com/*
+- Enquanto bootstrap não inclui icones propriamente dito, tem bibliotecas extansivas de icones.
+- [fontawesome](https://fontawesome.com/)
+- [featherIcons](https://feathericons.com/)
     
 ##### O real importante do bootstrap é a **class**, que é o metodo que o JS usa para interagir com o HTML  
 #### Vantagens do bootstrap  
@@ -71,7 +71,7 @@
 
 - É facil de dividir seu codigo com outros desenvolvedores, tanto como é facil usar codigos de outros.  
 
-- Documentação completa: https://getbootstrap.com/  
+- [Documentação completa](https://getbootstrap.com/) 
 
 - Abstrair estilos; ou seja, não precisa ficar escrevendo o CSS ou entender de como foi escrito, sendo só necessário escrever o HTML aplicando as classes e os modelos do bootstrap até que o projeto fique satisfatório.  
 
