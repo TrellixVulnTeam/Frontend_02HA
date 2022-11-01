@@ -15,12 +15,56 @@
     <form action="" id="form">
         <h2>Cadastro</h2>
         <h5>Os campos com * são obrigatórios</h5>
-        <input type="text" class="not-null" placeholder="NOME COMPLETO*" id="nome" name="nome">
-        <input type="text" class="not-null" placeholder="ENDEREÇO DE EMAIL*" id="email" name="email">
-        <input type="text" class="not-null" placeholder="CPF*" id="cpf" name="cpf">
-        <input type="text" class="not-null" placeholder="CEP*" id="cep" name="cep">
-        <button>Cadastrar</button>
+        
+        <div class="campo">
+            <label for="nome">Nome Completo*</label>
+            <input type="text" class="not-null"  id="nome" name="nome">
+        </div>
+        
+        <div class="campo">
+            <label for="email">Endereço de Email*</label>
+            <input type="text" class="not-null"  id="email" name="email">
+        </div>
+        
+        <div class="campo">
+            <label for="cpf">CPF*</label>
+            <input type="text" class="not-null"  id="cpf" name="cpf">
+        </div>
+
+        <div class="campo">
+            <label for="CEP">CEP*</label>
+            <input type="text" class="not-null"  id="cep" name="cep">
+        </div>
+        
+        <div class="adress">
+
+            <div class="imput-group">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" size="50">
+            </div>
+            
+            <div class="imput-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" size="30">
+            </div>
+            
+            <div class="imput-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" size="30">
+            </div>
+            
+            <div class="imput-group">
+                <label for="uf">Unidade Federal</label>
+                <input type="text" id="uf" size="2">
+            </div>
+            
+        </div>
+
+        <div class="input-group">
+            <button>Cadastrar</button>
+        </div>
     </form>
+
     <div class="mensagem"></div>
     <script src="./js/form.js"></script>
 </body>
