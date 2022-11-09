@@ -14,6 +14,27 @@
 3. Padrões publicados pela [ECMA International](https://en.wikipedia.org/wiki/Ecma_International) tal qual *Javascript* e *JSON*
 4. Padrões Publicados pela *Organização Internacional de Padronização* ou [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)   
 
-## Na pratica    
+### Na pratica    
 
-- São essecialmente diretrizes de boas praticas de modo mais geral, tanto para web quanto para aplicações, com intuito de padronizar para que não ocorram dissonâncias. Ou seja, uniformizar para facilitar tanto na aprendizagem, quanto na compreensão e no desenvolvimento em si.
+- São essecialmente diretrizes de boas praticas de modo mais geral, tanto para web quanto para aplicações, com intuito de padronizar para que não ocorram dissonâncias. Ou seja, uniformizar para facilitar tanto na aprendizagem, quanto na compreensão e no desenvolvimento em si.    
+
+## Boas praticas   
+
+#### Código limpo   
+
+- Pratica que traz código não redundante feito com módulos e funções específicas, escrito de modo organizado e sistemático com intuito que outro possa ler, interpretar e modificar com facilidade caso necessário.   
+
+#### User Experience    
+
+- Interação do usuário, inclui como o usuário percebe a utilidade, facilidade e eficiencia de um app. ou software; isto sendo considerado de grande importancia para empresas.   
+
+##### Acessibilidade    
+
+##### Responsividade    
+
+##### Privacidade/Segurança    
+
+##### Internacionalização    
+
+##### Performance    
+
