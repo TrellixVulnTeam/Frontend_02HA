@@ -36,5 +36,16 @@
 
 ##### Internacionalização    
 
-##### Performance    
+## Performance    
 
+1. Planejamento - Passo mais crucial que te traz clareza no que é necessário desenvolver.    
+
+2. Plataforma - É crucial saber para qual plataforma esta se desenvolvendo, cada plataforma tem suas diferenças e saber lidar com elas é fundamental.   
+
+3. Funcional - *"Não adianta pensar no visual se não tem funcionalidade"* , correlacionado com usabilidade e intuitividade.   
+
+4. Visual - Deve ser atraente ao cliente; muitas das vezes o design é o que mais chama a atenção do cliente e isso envolve tudo, desde as cores à identidade visual.    
+
+5. Agilidade - Usuário é meio impaciente e ser rápido é muito desejável e se demora muito para que aconteça algo, o usuário vai embora.    
+
+- Isso tudo culmina em UX (user experience) e quanto melhor essa for, melhor é para todos; voce fica feliz com o seu trabalho, o cliente fica feliz com o desempenho da página e o usuário fica feliz com uma experiencia agradável.
